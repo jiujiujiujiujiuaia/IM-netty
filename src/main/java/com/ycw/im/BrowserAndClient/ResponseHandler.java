@@ -21,8 +21,7 @@ public class ResponseHandler extends SimpleChannelInboundHandler<HttpObject> {
         ByteBuf byteBuf =ctx.alloc().buffer();
         byteBuf.writeBytes("Hello Netty ".getBytes(Charset.forName("UTF-8")));
 //        ByteBuf content = Unpooled.copiedBuffer("Hello netty~", CharsetUtil.UTF_8);
-        System.out.println(channel.remoteAddress());
-
+        System.out.println("ip :" + channel.remoteAddress());
         FullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1,
                 HttpResponseStatus.OK,byteBuf);
         response.headers().set(HttpHeaderNames.CONTENT_TYPE,"text/plain");
