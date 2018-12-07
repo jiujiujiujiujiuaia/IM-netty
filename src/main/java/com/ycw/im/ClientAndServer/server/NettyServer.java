@@ -3,6 +3,7 @@ package com.ycw.im.ClientAndServer.server;
 
 import com.ycw.im.ClientAndServer.codec.nettyCodec.PacketDecoder;
 import com.ycw.im.ClientAndServer.codec.nettyCodec.PacketEncoder;
+import com.ycw.im.ClientAndServer.server.handler.AuthHandler;
 import com.ycw.im.ClientAndServer.server.handler.LoginRuqestHandler;
 import com.ycw.im.ClientAndServer.server.handler.MessageRequestHandler;
 import io.netty.bootstrap.ServerBootstrap;
@@ -32,6 +33,10 @@ public class NettyServer {
                     public void initChannel(NioSocketChannel channel){
                         channel.pipeline().addLast(new PacketDecoder());
                         channel.pipeline().addLast(new LoginRuqestHandler());
+                        //添加一个权限校验，避免恶意通过客户端伪造MessageRequest绕过登陆
+
+                        channel.pipeline().addLast(new AuthHandler());
+
                         channel.pipeline().addLast(new MessageRequestHandler());
                         channel.pipeline().addLast(new PacketEncoder());
                     }

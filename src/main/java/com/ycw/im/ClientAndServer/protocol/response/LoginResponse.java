@@ -8,7 +8,7 @@ import lombok.Data;
 public class LoginResponse extends Packet {
     private boolean isSuccess;
     private String message;
-    private String id;
+    private String userName;
 
     public Integer getCommand(){
         return Command.LoginRespose.getCode();

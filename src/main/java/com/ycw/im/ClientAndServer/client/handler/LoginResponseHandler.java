@@ -13,7 +13,7 @@ public class LoginResponseHandler extends SimpleChannelInboundHandler<LoginRespo
         System.out.println(response.getMessage());
         if(response.isSuccess()){
             LoginUtil.set(ctx.channel());
-            LoginUtil.setId(ctx.channel(),response.getId());;
+            LoginUtil.setUserName(ctx.channel(),response.getUserName());;
         }
     }
 

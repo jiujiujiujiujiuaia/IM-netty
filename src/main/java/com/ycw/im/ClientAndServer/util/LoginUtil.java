@@ -9,10 +9,10 @@ public class LoginUtil {
     public static boolean isLogin(Channel channel){
         return channel.hasAttr(State.LOGIN);
     }
-    public static String getId(Channel channel){
-        return channel.attr(State.ID).get();
+    public static String getUserName(Channel channel){
+        return channel.attr(State.USERNAME).get();
     }
-    public static void setId(Channel channel,String id){
-        channel.attr(State.ID).set(id);
+    public static void setUserName(Channel channel,String id){
+        channel.attr(State.USERNAME).set(id);
     }
 }

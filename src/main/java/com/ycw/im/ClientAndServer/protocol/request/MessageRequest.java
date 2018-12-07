@@ -7,17 +7,17 @@ import lombok.Data;
 @Data
 public class MessageRequest extends Packet {
     private String message;
-    private String username;
-    private String userId;
+    private String toUserName;
+    private String fromUsername;
 
     public MessageRequest(){
 
     }
 
-    public MessageRequest(String message,String username,String userId){
+    public MessageRequest(String message,String toUserName,String fromUsername){
         this.message = message;
-        this.username = username;
-        this.userId = userId;
+        this.toUserName = toUserName;
+        this.fromUsername = fromUsername;
     }
 
     public Integer getCommand(){

@@ -11,11 +11,11 @@ public class MessageRequestHandler extends SimpleChannelInboundHandler<MessageRe
     public void channelRead0(ChannelHandlerContext ctx,MessageRequest request){
         Channel channel ;
         MessageResponse messageResponse = new MessageResponse();
-        System.out.println(request.getUsername()+"正在发送消息");
-        if((channel = LoginRuqestHandler.map.get(request.getUsername()))!=null){
+        System.out.println(request.getFromUsername()+"正在发送消息");
+        if((channel = LoginRuqestHandler.chatList.get(request.getToUserName()))!=null){
             messageResponse.setMessage(request.getMessage());
-            messageResponse.setUserId(request.getUserId());
-            messageResponse.setUsername(request.getUsername());
+            messageResponse.setToUserName(request.getToUserName());
+            messageResponse.setFromUserName(request.getFromUsername());
             messageResponse.setUp(true);
             channel.writeAndFlush(messageResponse);
         }

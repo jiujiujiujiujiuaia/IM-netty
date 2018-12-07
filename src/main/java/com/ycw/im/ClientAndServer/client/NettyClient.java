@@ -70,7 +70,7 @@ public class NettyClient {
                 else {
                     System.out.println("请输入消息");
                     String username = sc.nextLine();
-                    MessageRequest messageRequest = new MessageRequest(username.split(" ")[1],username.split(" ")[0],LoginUtil.getId(channel));
+                    MessageRequest messageRequest = new MessageRequest(username.split(" ")[1],username.split(" ")[0],LoginUtil.getUserName(channel));
                     channel.writeAndFlush(messageRequest);
                 }
             }

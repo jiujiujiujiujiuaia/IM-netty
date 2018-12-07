@@ -7,8 +7,8 @@ import lombok.Data;
 @Data
 public class MessageResponse extends Packet {
     private String message;
-    private String username;
-    private String userId;
+    private String toUserName;
+    private String fromUserName;
     private boolean isUp;
 
     public Integer getCommand(){

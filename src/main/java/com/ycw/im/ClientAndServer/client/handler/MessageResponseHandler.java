@@ -9,7 +9,7 @@ public class MessageResponseHandler extends SimpleChannelInboundHandler<MessageR
     @Override
     public void channelRead0(ChannelHandlerContext ctx,MessageResponse messageResponse){
         if(messageResponse.isUp()){
-            System.out.println("收到["+messageResponse.getUsername()+"]消息:");
+            System.out.println("收到["+messageResponse.getFromUserName()+"]消息:");
         }
         System.out.println(messageResponse.getMessage());
 
