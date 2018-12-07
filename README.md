@@ -3,6 +3,7 @@
 ## [cs结构](https://github.com/jiujiujiujiujiuaia/IM-netty/tree/master/src/main/java/com/ycw/im/ClientAndServer)
 
 ### 项目结构及逻辑
+![](https://github.com/jiujiujiujiujiuaia/IM-netty/tree/master/src/main/src/1.png)
 
 ### 目前完成的功能
 - 一对一单聊
