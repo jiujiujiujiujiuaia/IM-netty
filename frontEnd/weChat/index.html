@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/header.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+//    	mui.plusReady();
+    </script>
+</head>
+<body>
+	
+	<header class="mui-bar mui-bar-nav title">
+	    <h1 class="mui-title title-font">weChat</h1>
+	</header>
+	
+	<nav class="mui-bar mui-bar-tab">
+	    <a class="mui-tab-item mui-active" tabindex="0">
+	        <span class="mui-icon mui-icon mui-icon-chatbubble"></span>
+	        <span class="mui-tab-label" >首页</span>
+	    </a>
+	    <a class="mui-tab-item" tabindex = "1">
+	        <span class="mui-icon mui-icon mui-icon-contact"></span>
+	        <span class="mui-tab-label" >通讯录</span>
+	    </a>
+	    <a class="mui-tab-item" tabindex="2">
+	        <span class="mui-icon mui-icon mui-icon-pengyouquan"></span>
+	        <span class="mui-tab-label" >发现</span>
+	    </a>
+	    <a class="mui-tab-item" tabindex="3">
+	        <span class="mui-icon mui-icon-gear"></span>
+	        <span class="mui-tab-label" >设置</span>
+	    </a>
+	</nav>
+	
+	<script type="text/javascript" charset="utf-8">
+		var muxinArray = [
+			{
+				pageId: "chatlist.html",
+				pageUrl: "chatlist.html"
+			},
+			{
+				pageId: "contact.html",
+				pageUrl: "contact.html"
+			},
+			{
+				pageId: "discover.html",
+				pageUrl: "discover.html"
+			},
+			{
+				pageId: "me.html",
+				pageUrl: "me.html"
+			}
+		];
+		
+		var muxinStyle = {
+			top: "44px",
+			bottom: "50px"
+		}
+		mui.plusReady(function(){
+		var indexWebview = plus.webview.currentWebview()
+			for (var i = 0 ; i < muxinArray.length ; i ++) {
+				var muxinPage = plus.webview.create(muxinArray[i].pageUrl, 
+													muxinArray[i].pageId,
+													muxinStyle);
+				
+				muxinPage.hide();
+				indexWebview.append(muxinPage);
+			}
+			plus.webview.show(muxinArray[0].pageId);
+		
+		
+		mui(".mui-bar-tab").on("tap", "a", function() {
+				var tabindex = this.getAttribute("tabindex");
+				
+				// 显示点击的tab选项所对应的页面
+				plus.webview.show(muxinArray[tabindex].pageId, "fade-in", 200);
+				
+				// 隐藏其他的不需要的页面
+				for (var i = 0 ; i < muxinArray.length ; i ++) {
+					if (i != tabindex) {
+						plus.webview.hide(muxinArray[i].pageId, "fade-out", 200);
+					}
+				}
+		})
+		})
+	</script>
+</body>
+</html>

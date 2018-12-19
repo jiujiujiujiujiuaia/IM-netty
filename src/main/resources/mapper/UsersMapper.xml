@@ -23,7 +23,7 @@
     <!--<result column="TOTAL_CONNECTIONS" jdbcType="BIGINT" property="totalConnections" />-->
   <!--</resultMap>-->
 
-  <select id="login" resultType="com.ycw.wechat.pojo.Users">
+  <select id="login" parameterType="com.ycw.wechat.pojo.Users" resultType="com.ycw.wechat.pojo.vo.UserBoResult">
     select * from users where username = #{username} and password =#{password}
   </select>
   <select id="queryUsername" resultType="com.ycw.wechat.pojo.Users">

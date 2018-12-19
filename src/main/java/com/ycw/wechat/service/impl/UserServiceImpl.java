@@ -2,9 +2,9 @@ package com.ycw.wechat.service.impl;
 
 import com.ycw.wechat.mapper.UsersMapper;
 import com.ycw.wechat.pojo.Users;
+import com.ycw.wechat.pojo.vo.UserBoResult;
 import com.ycw.wechat.service.UserService;
-import com.ycw.wechat.utils.DataResult;
-import org.omg.CORBA.DATA_CONVERSION;
+import com.ycw.wechat.pojo.DataResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,12 +26,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public DataResult login(String username, String password) {
-       Users users = usersMapper.login(username,password);
-       if(users == null){
+    public DataResult login(Users users) {
+       UserBoResult userResult = usersMapper.login(users);
+       if(userResult == null){
            return DataResult.errorMsg("用户名或密码错误");
        }
-       return DataResult.ok("登陆成功");
+       return DataResult.ok(userResult);
     }
 
     @Override

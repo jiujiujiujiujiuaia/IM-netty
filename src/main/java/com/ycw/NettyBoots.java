@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @Author yuchunwei
+ * 在springboot上下文启动期间，启动netty服务器
  */
 @Component
 public class NettyBoots implements ApplicationListener<ContextRefreshedEvent> {
