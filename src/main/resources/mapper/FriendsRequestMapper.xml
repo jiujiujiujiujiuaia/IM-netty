@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.ycw.wechat.mapper.FriendsRequestMapper" >
-  <!--<resultMap id="BaseResultMap" type="com.ycw.wechat.pojo.FriendsRequest" >-->
-    <!--&lt;!&ndash;-->
-      <!--WARNING - @mbg.generated-->
-    <!--&ndash;&gt;-->
-    <!--<id column="id" property="id" jdbcType="VARCHAR" />-->
-    <!--<result column="send_user_id" property="sendUserId" jdbcType="VARCHAR" />-->
-    <!--<result column="accept_user_id" property="acceptUserId" jdbcType="VARCHAR" />-->
-    <!--<result column="request_time" property="requestTime" jdbcType="TIMESTAMP" />-->
-  <!--</resultMap>-->
+  <resultMap id="BaseResultMap" type="com.ycw.wechat.pojo.FriendsRequest" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="send_user_id" property="sendUserId" jdbcType="VARCHAR" />
+    <result column="accept_user_id" property="acceptUserId" jdbcType="VARCHAR" />
+    <result column="request_time" property="requestTime" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="INTEGER"/>
+  </resultMap>
+  <insert id="insertAddFriendRequst" parameterType="com.ycw.wechat.pojo.bo.AddFriendRequst">
+    insert into friends_request(send_user_id,accept_user_id,request_time,status) values(#{myUserId},#{friendId},#{date},#{status})
+  </insert>
 </mapper>

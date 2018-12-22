@@ -5,7 +5,10 @@
 - 后端整合springboot+netty+mybatis
 12/11 整合完毕，开始登陆注册功能
 12/19 完成照片上传下载功能，但是碰到大图就会有明显卡顿，后台做一下处理，图片过大就缩小保存
-
+12/22 完成好友申请添加等等接口，并深入的理解到了mui.plusReady()是在进程初始化的时候执行，比如说
+绑定一些事件啊之类，然后初始化完了之后，一直监听直到响应。这也是为什么退出登陆后没有执行mui.plusReady()
+函数的原因（初始化一次，除非杀死进程）
+12/23 解决高清照片传输加快的问题（如何解决，怎么解决？）
 
 ## 二·脚手架(学习准备)
 ### （一）[cs结构](https://github.com/jiujiujiujiujiuaia/IM-netty/tree/master/src/main/java/com/ycw/im/ClientAndServer)

@@ -27,6 +27,7 @@ public enum QiniuUploadType {
     }
 
     public String getPath() {
+
         return path;
     }
 

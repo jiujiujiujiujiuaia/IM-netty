@@ -17,8 +17,14 @@
     <!--<result column="CURRENT_CONNECTIONS" jdbcType="BIGINT" property="currentConnections" />-->
     <!--<result column="TOTAL_CONNECTIONS" jdbcType="BIGINT" property="totalConnections" />-->
   <!--</resultMap>-->
+  <update id="updateNickName" parameterType="com.ycw.wechat.pojo.bo.UserBo">
+    update  users set nickname =#{nickname}
+      where id = #{userId}
+  </update>
   <update id="updateImage" parameterType="com.ycw.wechat.pojo.bo.UserBo" >
-     update users set face_image = #{faceData},face_image_big =#{faceData} where id = #{userId}
+     update users set face_image = #{faceData},
+       face_image_big =#{faceData}
+     where id = #{userId}
   </update>
   <select id="getUser" parameterType="com.ycw.wechat.pojo.bo.UserBo" resultMap="UserBoResultMap">
     select * from users where id = #{userId}
@@ -33,4 +39,7 @@
   <insert id="registor">
     insert into users(username,password) values(#{username},#{password})
   </insert>
+  <select id="selecUserByUserName" resultMap="UserBoResultMap">
+    select * from users where username=#{userName}
+  </select>
 </mapper>

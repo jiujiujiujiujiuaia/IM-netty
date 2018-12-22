@@ -1,6 +1,7 @@
 package com.ycw.wechat.controller;
 
 import com.ycw.wechat.pojo.Users;
+import com.ycw.wechat.pojo.bo.AddFriendRequst;
 import com.ycw.wechat.pojo.bo.UserBo;
 import com.ycw.wechat.service.UserService;
 import com.ycw.wechat.pojo.DataResult;
@@ -37,6 +38,16 @@ public class UserController {
     @PostMapping("/uploadFace")
     public DataResult uploadImage(@RequestBody UserBo userBo){
         return userService.upLoadImage(userBo);
+    }
+
+    @PostMapping("setNickname")
+    public DataResult setNickname(@RequestBody UserBo userBo){
+        return userService.setNickName(userBo);
+    }
+
+    @PostMapping("search")
+    public DataResult searchFriend(@RequestBody AddFriendRequst requst){
+        return userService.searchFriend(requst);
     }
 
 
