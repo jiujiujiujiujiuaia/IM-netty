@@ -3,6 +3,7 @@ package com.ycw.wechat.enums;
 /**
  * @Author yuchunwei
  */
+//无论添加好友的请求是成功还是忽略 都是已经处理的状态
 public enum AddFriendRequstEnum {
     HANDLED(1,"已经处理"),
     UNHANDLED(2,"还没有被处理"),
