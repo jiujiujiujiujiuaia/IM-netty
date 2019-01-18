@@ -6,7 +6,7 @@ import lombok.Data;
  * @Author yuchunwei
  */
 @Data
-public class ChatMsg {
+public class ChatMsgVo {
     private static final long serialVersionUID = 3611169682695799175L;
 
     private String senderId;		// 发送者的用户id
