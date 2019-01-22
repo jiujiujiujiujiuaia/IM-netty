@@ -11,5 +11,7 @@ import java.util.List;
 public interface ChatMsgMapper extends MyMapper<ChatMsg> {
     int insertMsg(ChatMsg chatMsg);
 
-    List<ChatMsg> getUnReadMsgList(@Param("acceptUserId") String acceptUserId);
+    List<ChatMsg> queryUnSignMsgs(@Param("acceptUserId") String acceptUserId);
+
+    void updateMsgToSign(List<String> ids);
 }

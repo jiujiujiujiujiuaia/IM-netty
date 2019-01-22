@@ -85,6 +85,7 @@
 				// 获得当前的webview，刷新当前用户信息
 				var meWebview = plus.webview.currentWebview();
 				meWebview.addEventListener("show", function() {
+					console.log("监听到了我的页面show事件");
 					refreshUserInfo();
 				});
 				
@@ -131,7 +132,7 @@
 					var faceImage = user.faceImage;
 					var nickname = user.nickname;
 					var username = user.username;
-					
+				
 					var span_nickname = document.getElementById("span_nickname");
 					var span_username = document.getElementById("span_username");
 					
@@ -147,5 +148,4 @@
 			}
 			
 		</script>
-	</body>
 </html>

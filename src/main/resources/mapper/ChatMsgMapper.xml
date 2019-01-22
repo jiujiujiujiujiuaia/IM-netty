@@ -14,7 +14,15 @@
         INSERT INTO chat_msg(send_user_id,accept_user_id,msg,sign_flag,create_time) values(#{sendUserId},#{acceptUserId},#{msg},#{signFlag},#{createTime})
   </insert>
 
-  <select id="getUnReadMsgList" resultMap="BaseResultMap">
+  <select id="queryUnSignMsgs" resultMap="BaseResultMap">
     SELECT * FROM chat_msg WHERE accept_user_id = #{acceptUserId} and sign_flag = 0;
   </select>
+
+  <update id="updateMsgToSign">
+    UPDATE chat_msg SET sign_flag = 1 WHERE id
+    IN
+    <foreach collection="list" item="id" index="index" open="(" close=")" separator=",">
+    #{id}
+  </foreach>
+  </update>
 </mapper>

@@ -1,10 +1,7 @@
 package com.ycw.wechat.netty.strategy;
 
 import com.ycw.wechat.enums.MsgStateEnum;
-import com.ycw.wechat.netty.strategy.impl.ChatStrategy;
-import com.ycw.wechat.netty.strategy.impl.CloseStrategy;
-import com.ycw.wechat.netty.strategy.impl.ConnectStrategy;
-import com.ycw.wechat.netty.strategy.impl.HeartCheckStrategy;
+import com.ycw.wechat.netty.strategy.impl.*;
 
 import java.util.HashMap;
 
@@ -22,6 +19,7 @@ public class StrategyFactory {
         map.put(MsgStateEnum.CHAT.getCode(),new ChatStrategy());
         map.put(MsgStateEnum.CLOSE.getCode(),new CloseStrategy());
         map.put(MsgStateEnum.KEEPALIVE.getCode(),new HeartCheckStrategy());
+        map.put(MsgStateEnum.SIGNED.getCode(),new SignStrategy());
     }
 
     public Strategy create(Integer type){

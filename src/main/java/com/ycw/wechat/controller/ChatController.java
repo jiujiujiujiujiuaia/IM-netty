@@ -16,9 +16,9 @@ public class ChatController {
     @Autowired
     private ChatService chatService;
 
-    @RequestMapping("/getUnReadMsgList")
-    public DataResult getUnReadMsgList(String acceptUserId){
-        return chatService.queryUnReadMsgs(acceptUserId);
+    @RequestMapping("/getUnSignMsgs")
+    public DataResult getUnSignMsgs(String acceptUserId){
+        return chatService.queryUnSignMsgs(acceptUserId);
     }
 
 }   

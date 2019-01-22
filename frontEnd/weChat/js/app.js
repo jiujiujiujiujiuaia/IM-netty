@@ -3,17 +3,17 @@ window.app = {
 	/**
 	 * netty服务后端发布的url地址
 	 */
-	nettyServerUrl: 'ws://192.168.1.3:8088/ws',
+	nettyServerUrl: 'ws://172.20.10.3:8088/ws',
 	
 	/**
 	 * 后端服务发布的url地址
 	 */
-	serverUrl: 'http://localhost:8080/',
+	serverUrl: 'http://172.20.10.3:8080/',
 	
 	/**
 	 * 图片服务器的url地址
 	 */
-	imgServerUrl: 'http://192.168.1.70:88/imooc/',
+	imgServerUrl: 'http://pli9iuf4g.bkt.clouddn.com/',
 	
 	/**
 	 * 判断字符串是否为空
@@ -60,6 +60,7 @@ window.app = {
 	 */
 	userLogout: function() {
 		plus.storage.removeItem("userInfo");
+		plus.storage.removeItem("contactList");
 	},
 	
 	/**
@@ -135,7 +136,8 @@ window.app = {
 		
 		// 向list中追加msg对象
 		chatHistoryList.push(singleMsg);
-		
+		console.log("本地缓存的历史List" + JSON.stringify(chatHistoryList))
+		console.log("历史List条数" + chatHistoryList.length);
 		plus.storage.setItem(chatKey, JSON.stringify(chatHistoryList));
 	},
 	
@@ -295,16 +297,17 @@ window.app = {
 	CHAT: 2, 		// 聊天消息
 	SIGNED: 3, 		// 消息签收
 	KEEPALIVE: 4, 	// 客户端保持心跳
-	PULL_FRIEND:5,	// 重新拉取好友
+	PULL_FRIEND:5,// 重新拉取好友
+	CLOSE : 6,
 	
 	/**
-	 * 和后端的 ChatMsg 聊天模型对象保持一致
+	 * 和后端的 ChatMsgVo 聊天模型对象保持一致
 	 * @param {Object} senderId
 	 * @param {Object} receiverId
 	 * @param {Object} msg
 	 * @param {Object} msgId
 	 */
-	ChatMsg: function(senderId, receiverId, msg, msgId){
+	ChatMsgVo: function(senderId, receiverId, msg, msgId){
 		this.senderId = senderId;
 		this.receiverId = receiverId;
 		this.msg = msg;
@@ -314,12 +317,12 @@ window.app = {
 	/**
 	 * 构建消息 DataContent 模型对象
 	 * @param {Object} action
-	 * @param {Object} chatMsg
+	 * @param {Object} ChatMsgVo
 	 * @param {Object} extand
 	 */
-	DataContent: function(action, chatMsg, extand){
+	DataContent: function(action, ChatMsgVo, extand){
 		this.action = action;
-		this.chatMsg = chatMsg;
+		this.ChatMsgVo = ChatMsgVo;
 		this.extand = extand;
 	},
 	

@@ -114,7 +114,7 @@
 						var cid = plus.push.getClientInfo().clientid;
 						// 与后端联调
 						
-						mui.ajax("http://172.20.10.3:8080/u/login",{
+						mui.ajax(app.serverUrl + "/u/login",{
 							data:{
 								username:username.value,
 								password:txt_password.value,
@@ -135,7 +135,7 @@
 									// 登录或者注册成功之后，保存全局用户对象到本地缓存
 									var userInfoJson = data.data;
 									app.setUserGlobalInfo(userInfoJson);
-									
+									console.log("登陆成功");
 									// 页面跳转
 									mui.openWindow("index.html", "index.html");
 								} else {
