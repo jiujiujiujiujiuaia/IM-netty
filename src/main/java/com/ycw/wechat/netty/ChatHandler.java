@@ -38,6 +38,7 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
 
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("有用户被移除");
         super.handlerRemoved(ctx);
     }
 

@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -66,8 +67,9 @@ public class FriendServiceImpl implements FriendService {
     @Override
     public DataResult getAllFriend(String userId){
         System.out.println("获取所有好友");
+        List<QueryAllFriendVo> res = new ArrayList<>();
         List<String> ids = myFriendsMapper.selectFriendIds(userId);
-        List<QueryAllFriendVo> res = myFriendsMapper.selectFriends(ids);
+        if(ids.size() > 0) res = myFriendsMapper.selectFriends(ids);
         return DataResult.ok(res);
     }
 }   

@@ -15,6 +15,6 @@
   </insert>
 
   <select id="getUnReadMsgList" resultMap="BaseResultMap">
-    SELECT * FROM chat_msg WHERE accept_user_id = #{id} and sign_flag = 0;
+    SELECT * FROM chat_msg WHERE accept_user_id = #{acceptUserId} and sign_flag = 0;
   </select>
 </mapper>

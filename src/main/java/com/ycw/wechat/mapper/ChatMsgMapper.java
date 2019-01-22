@@ -11,5 +11,5 @@ import java.util.List;
 public interface ChatMsgMapper extends MyMapper<ChatMsg> {
     int insertMsg(ChatMsg chatMsg);
 
-    List<ChatMsg> getUnReadMsgList(@Param("id") String acceptUserId);
+    List<ChatMsg> getUnReadMsgList(@Param("acceptUserId") String acceptUserId);
 }
