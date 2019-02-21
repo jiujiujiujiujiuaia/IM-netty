@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.ycw.wechat.mapper.FriendsRequestMapper" >
-  <resultMap id="BaseResultMap" type="com.ycw.wechat.pojo.FriendsRequest" >
+<mapper namespace="com.ycw.Mobilewechat.mapper.FriendsRequestMapper" >
+  <resultMap id="BaseResultMap" type="com.ycw.Mobilewechat.pojo.FriendsRequest" >
   <id column="id" property="id" jdbcType="VARCHAR" />
   <result column="send_user_id" property="sendUserId" jdbcType="VARCHAR" />
   <result column="accept_user_id" property="acceptUserId" jdbcType="VARCHAR" />
@@ -9,17 +9,17 @@
   <result column="status" property="status" jdbcType="INTEGER"/>
 </resultMap>
 
-  <insert id="insertAddFriendRequst" parameterType="com.ycw.wechat.pojo.bo.AddFriendRequst">
+  <insert id="insertAddFriendRequst" parameterType="com.ycw.Mobilewechat.pojo.bo.AddFriendRequst">
     insert into friends_request(send_user_id,accept_user_id,request_time,status) values(#{myUserId},#{friendId},#{date},#{status})
   </insert>
 
-  <select id="queryFriendRequst" resultType="com.ycw.wechat.pojo.vo.QueryAddFriendRequestVo">
+  <select id="queryFriendRequst" resultType="com.ycw.Mobilewechat.pojo.vo.QueryAddFriendRequestVo">
     SELECT a.id as sendUserId,a.nickname as sendNickname,a.face_image as sendFaceImage
     FROM users a
     LEFT JOIN friends_request b on b.send_user_id = a.id
     WHERE b.accept_user_id = #{userId} AND status = 2
   </select>
-  <update id="updateStatus" parameterType="com.ycw.wechat.pojo.bo.HandleFriendRequest">
+  <update id="updateStatus" parameterType="com.ycw.Mobilewechat.pojo.bo.HandleFriendRequest">
     UPDATE friends_request SET status = #{status} WHERE accept_user_id = #{acceptUserId} AND send_user_id = #{sendUserId}
   </update>
 </mapper>

@@ -1,6 +1,8 @@
 package com.ycw;
 
-import com.ycw.wechat.netty.Server;
+import com.ycw.Mobilewechat.netty.Server;
+import com.ycw.Webwechat.web.websocket.WebSocketServer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
@@ -11,11 +13,15 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class NettyBoots implements ApplicationListener<ContextRefreshedEvent> {
+    @Autowired
+    private WebSocketServer webNettyServer;
+
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
         if (event.getApplicationContext().getParent() == null) {
             try {
                 Server.getInstance().start(8088);
+//                webNettyServer.build(3333);
             } catch (Exception e) {
                 e.printStackTrace();
             }

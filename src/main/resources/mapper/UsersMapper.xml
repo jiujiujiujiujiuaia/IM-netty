@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ycw.wechat.mapper.UsersMapper">
-  <resultMap id="UserBoResultMap" type="com.ycw.wechat.pojo.vo.UserVoResult">
+<mapper namespace="com.ycw.Mobilewechat.mapper.UsersMapper">
+  <resultMap id="UserBoResultMap" type="com.ycw.Mobilewechat.pojo.vo.UserVoResult">
     <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="face_image" jdbcType="VARCHAR" property="faceImage" />
     <result column="face_image_big" jdbcType="VARCHAR" property="faceImageBig" />
@@ -9,7 +9,7 @@
     <result column="qrcode" jdbcType="VARCHAR" property="qrcode" />
     <result column="id" jdbcType="VARCHAR" property="userId" />
   </resultMap>
-  <!--<resultMap id="BaseResultMap" type="com.ycw.wechat.pojo.Users">-->
+  <!--<resultMap id="BaseResultMap" type="com.ycw.Mobilewechatwechat.pojo.Users">-->
     <!--&lt;!&ndash;-->
       <!--WARNING - @mbg.generated-->
     <!--&ndash;&gt;-->
@@ -17,23 +17,23 @@
     <!--<result column="CURRENT_CONNECTIONS" jdbcType="BIGINT" property="currentConnections" />-->
     <!--<result column="TOTAL_CONNECTIONS" jdbcType="BIGINT" property="totalConnections" />-->
   <!--</resultMap>-->
-  <update id="updateNickName" parameterType="com.ycw.wechat.pojo.bo.UserBo">
+  <update id="updateNickName" parameterType="com.ycw.Mobilewechat.pojo.bo.UserBo">
     update  users set nickname =#{nickname}
       where id = #{userId}
   </update>
-  <update id="updateImage" parameterType="com.ycw.wechat.pojo.bo.UserBo" >
+  <update id="updateImage" parameterType="com.ycw.Mobilewechat.pojo.bo.UserBo" >
      update users set face_image = #{faceData},
        face_image_big =#{faceData}
      where id = #{userId}
   </update>
-  <select id="getUser" parameterType="com.ycw.wechat.pojo.bo.UserBo" resultMap="UserBoResultMap">
+  <select id="getUser" parameterType="com.ycw.Mobilewechat.pojo.bo.UserBo" resultMap="UserBoResultMap">
     select * from users where id = #{userId}
   </select>
 
-  <select id="login" parameterType="com.ycw.wechat.pojo.Users" resultMap="UserBoResultMap">
+  <select id="login" parameterType="com.ycw.Mobilewechat.pojo.Users" resultMap="UserBoResultMap">
     select * from users where username = #{username} and password =#{password}
   </select>
-  <select id="queryUsername" resultType="com.ycw.wechat.pojo.Users">
+  <select id="queryUsername" resultType="com.ycw.Mobilewechat.pojo.Users">
     select * from users where username = #{username}
   </select>
   <insert id="registor">

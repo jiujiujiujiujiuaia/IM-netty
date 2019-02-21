@@ -12,10 +12,9 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 //@ComponentScan({"com.blog"})
 //@ServletComponentScan
-@MapperScan(basePackages = "com.ycw.wechat.mapper")
+@MapperScan(basePackages = "com.ycw.Mobilewechat.mapper")
 @EnableAutoConfiguration
 public class WebApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(WebApplication.class, args);
     }
