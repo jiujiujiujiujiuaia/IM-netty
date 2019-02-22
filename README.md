@@ -29,17 +29,29 @@
 ### 后端开发
 
 1 **项目package展示**
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/20190222120305.png)
+
 2 **效果展示**
-(1)- 登陆注册界面
+
+(1) 登陆注册界面
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/1.png)
-(2)- 个人信息首页
+
+(2) 个人信息首页
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/2.png)
-(3)- 互相聊天展示
+
+(3) 互相聊天展示
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/3.png)
-(4)- 收到并回复
+
+(4) 收到并回复
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/4.png)
-(5)- 好友列表页面
+
+(5) 好友列表页面
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/5.png)
 3 **netty构建通讯**
 (1)netty服务在springboot上下文启动期间开始，实现ApplicationListener接口，使用饿汉单例模式
