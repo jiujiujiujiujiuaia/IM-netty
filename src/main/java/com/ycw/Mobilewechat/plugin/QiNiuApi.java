@@ -19,7 +19,7 @@ public class QiNiuApi {
     private UploadManager uploadManager;
     private static final String AK ="Miz3fGhzz7mzW4cVapwS4KtZLxY0olmNqdXUd_La";
     private static final String SK="C-12V0QS0IAE9aloOClMd9H97XXOBkhdr7RqvSUK";
-    private static final String bucket="netty-chat2";
+    private static final String bucket="netty-chat3";
 
     private QiNiuApi(){
         auth = Auth.create(AK,SK);
