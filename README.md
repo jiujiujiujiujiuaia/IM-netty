@@ -54,20 +54,31 @@
 
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/5.png)
 3 **netty构建通讯**
+
 (1)netty服务在springboot上下文启动期间开始，实现ApplicationListener接口，使用饿汉单例模式
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/7.png)
 (2)前端使用**websocket**通讯，使用**HttpServerCodec**解**http**码，使用**HttpObjectAggregator**，把Http的body和header拼接完整，然后使用**WebSocketServerProtocolHandler**把**TextWebSocketFrame**传给下一层
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/8.png)
 (3)使用策略模式和工厂模式把if-else 业务逻辑进行解耦
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/9.png)
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/10.png)
+
 不同的请求在不同的策略工厂被建造出来，各种策略再去实现相应的handler方法进行解耦
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/11.png)
+
 (4)无读写请求时保持心跳，设置keepalive,一旦失去心跳，就回收使其channel失活，节约服务器资源
 
 4 **搜索好友名称使用**
+
 使用**字典树**作为用户名模糊搜索的数据结构
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/12.png)
+
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/13.png)
 
 
