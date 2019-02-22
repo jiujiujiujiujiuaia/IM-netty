@@ -53,12 +53,15 @@
 (5) 好友列表页面
 
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/5.png)
+
 3 **netty构建通讯**
 
 (1)netty服务在springboot上下文启动期间开始，实现ApplicationListener接口，使用饿汉单例模式
 
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/7.png)
-(2)前端使用**websocket**通讯，使用**HttpServerCodec**解**http**码，使用**HttpObjectAggregator**，把Http的body和header拼接完整，然后使用**WebSocketServerProtocolHandler**把**TextWebSocketFrame**传给下一层
+
+(2)前端使用**websocket**通讯，使用**HttpServerCodec**解**http**码，使用**HttpObjectAggregator**，把Http的body和header拼接完整，
+然后使用**WebSocketServerProtocolHandler**把**TextWebSocketFrame**传给下一层
 
 ![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/8.png)
 (3)使用策略模式和工厂模式把if-else 业务逻辑进行解耦
@@ -84,17 +87,29 @@
 
 ### 前端开发 
 
-
-
+(部分日志记录，后面懒了就没有怎么弄了)
 
 12/11 整合完毕，开始登陆注册功能
+
 12/19 完成照片上传下载功能，但是碰到大图就会有明显卡顿，后台做一下处理，图片过大就缩小保存
+
 12/22 完成好友申请添加等等接口，并深入的理解到了mui.plusReady()是在进程初始化的时候执行，比如说
 绑定一些事件啊之类，然后初始化完了之后，一直监听直到响应。这也是为什么退出登陆后没有执行mui.plusReady()
 函数的原因（初始化一次，除非杀死进程）
+
 12/23 解决高清照片传输加快的问题（如何解决，怎么解决？）
 
-## 三·[web端]
+## 三·[web端](https://github.com/jiujiujiujiujiuaia/IM-netty/tree/master/src/main/java/com/ycw/wechat)
+
+web端采用B/S（Browser/Server），即浏览器/服务器的结构，主要事务逻辑在服务器端（Server）实现。借鉴MVC模式的思想，
+从上至下具体又分为视图层（View）、控制层（Controller）、业务层（Service）、模型层（Model）、数据访问层（Data Access）。
+
+**目前还在把android端的功能迁移到web端，因此web端目前只有通讯功能**
+
+![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/14.png)
+
+![b](https://raw.githubusercontent.com/jiujiujiujiujiuaia/image/master/netty/15.png)
+
 
 ## 四·脚手架demo(学习准备)
 ### （一）[cs结构](https://github.com/jiujiujiujiujiuaia/IM-netty/tree/master/src/main/java/com/ycw/im/ClientAndServer)
