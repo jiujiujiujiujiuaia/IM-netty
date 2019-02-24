@@ -99,6 +99,11 @@
 
 12/23 解决高清照片传输加快的问题（如何解决，怎么解决？）
 
+1/18 把MockMultipartFile转换MultipartFile 换成了CommonsMultipartFile转换，原因是MockMultipartFile属于
+test依赖中，打包上传到服务器上会出错
+
+1/29 拆分为架构为分布式以及单机，同时把项目改成多模块
+
 ## 三·[web端](https://github.com/jiujiujiujiujiuaia/IM-netty/tree/master/src/main/java/com/ycw/wechat)
 
 web端采用B/S（Browser/Server），即浏览器/服务器的结构，主要事务逻辑在服务器端（Server）实现。借鉴MVC模式的思想，

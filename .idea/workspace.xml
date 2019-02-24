@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="380c28ac-67f3-41bc-bcc0-0567d434b4e6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-distributed-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-distributed-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-distributed-server/src/test/java/com/ycw/im/imdistributedserver/ImDistributedServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-netty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/FriendsRequestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/ImageUploadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im-singel/src/test/java/com/ycw/im/imsingel/ImSingelApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/chatlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/chatting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/mui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/mui.indexedlist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/mui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/registLogin/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/registLogin/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/registLogin/util.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/discover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/fonts/mui.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/addfriends.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/face-default-cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/friends.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/givememoney.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/good.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/scanscan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/image/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/mui.indexedlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/mui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/mui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/nickname.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/mp3/di_didi.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/mp3/msn.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/mp3/send.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/myface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/mynickname.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/css/cropper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/images/picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/js/cropper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/uploader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/css/cropper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/images/picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/js/cropper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/myface-uploader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/searchFriends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/searchFriendsResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/unpackage/.confirmed_dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/unpackage/.dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh.exe.stackdump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/controller/FriendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/FriendController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/enums/AddFriendRequstEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/enums/AddFriendRequstEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/enums/MsgStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/enums/MsgStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/mapper/ChatMsgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/ChatMsgMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/mapper/FriendsRequestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/mapper/MyFriendsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/MyFriendsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/UsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/Initial.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/Initial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/UserChannels.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/UserChannels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/pojo/ChatMsgVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/pojo/ChatMsgVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/pojo/DataContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/pojo/DataContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/strategy/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/strategy/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/strategy/StrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/StrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/strategy/impl/ChatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/ChatStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/strategy/impl/CloseStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/CloseStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/strategy/impl/ConnectStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/ConnectStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/strategy/impl/HeartCheckStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/HeartCheckStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/netty/strategy/impl/SignStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/SignStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/plugin/FileConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/FileConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/plugin/QiNiuApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiNiuApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/plugin/QiniuUploadType.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiniuUploadType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/ChatMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/ChatMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/DataResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/DataResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/FriendsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/FriendsRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/MyFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/MyFriends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/bo/AddFriendRequst.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/bo/AddFriendRequst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/bo/HandleFriendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/bo/HandleFriendRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/bo/UserBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/bo/UserBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/vo/QueryAddFriendRequestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/vo/QueryAddFriendRequestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/vo/QueryAllFriendVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/vo/QueryAllFriendVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/pojo/vo/UserVoResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/vo/UserVoResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/service/FriendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/FriendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/service/impl/ChatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/ChatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/service/impl/FriendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/FriendServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/utils/ImageUploadUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/utils/MyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/utils/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/SpringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Mobilewechat/utils/TrieTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/TrieTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/NettyBoots.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/NettyBoots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/dao/GroupInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/GroupInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/dao/UserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/UserInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/dao/impl/GroupInfoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/impl/GroupInfoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/dao/impl/UserInfoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/impl/UserInfoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/model/po/GroupInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/po/GroupInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/model/po/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/po/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/model/vo/ResponseJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/vo/ResponseJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/service/FileUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/FileUploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/service/impl/FileUploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/FileUploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/service/impl/SecurityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/SecurityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/service/impl/WebChatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/WebChatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/util/ChatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/ChatType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/util/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/util/JsonMsgHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/JsonMsgHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/controller/ChatroomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/ChatroomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/controller/common/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/interceptor/UserAuthInteceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/interceptor/UserAuthInteceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/websocket/HttpRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/HttpRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/websocket/WebSocketChildChannelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketChildChannelHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/websocket/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/Webwechat/web/websocket/WebSocketServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/BrowserAndClient/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/BrowserAndClient/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/BrowserAndClient/ResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/ResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/client/handler/LoginResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/LoginResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/client/handler/MessageResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/MessageResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/codec/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/codec/Codec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/codec/nettyCodec/PacketDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/codec/nettyCodec/PacketDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/codec/nettyCodec/PacketEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/codec/nettyCodec/PacketEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/protocol/Packet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/protocol/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/protocol/request/MessageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/request/MessageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/protocol/response/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/response/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/protocol/response/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/response/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/protocol/serializer/JSONSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/serializer/JSONSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/protocol/serializer/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/serializer/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/protocol/serializer/SerializerAlogrithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/serializer/SerializerAlogrithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/server/handler/AuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/AuthHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/server/handler/LoginRuqestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/LoginRuqestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/server/handler/MessageRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/MessageRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/util/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/util/LoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/LoginUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/ClientAndServer/util/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/WebSocketAndNetty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/WebSocketAndNetty/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/WebSocketAndNetty/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/WebSocketAndNetty/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ycw/learnNettyExample/WebSocketAndNetty/WsServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/WebSocketAndNetty/WsServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ChatMsgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/ChatMsgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/FriendsRequestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/FriendsRequestMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MyFriendsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/MyFriendsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/chatroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/public/chatroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/public/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/chatroom.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/chatroom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/common/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/common/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/common/fileinput.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/common/fileinput.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/common/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/common/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/common/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/common/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/img/loading-sm.gif" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/img/loading-sm.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/img/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Group01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Group01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/avatar/Member009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/avatar/Member009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/box_head.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/box_head.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/chat.ico" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/chat.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/chat_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/chat_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_23.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/emoji/emoji_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/emoji/emoji_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/login_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/login_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/upload.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/img/upload.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/chatroom.js" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/js/chatroom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/common/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/js/common/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/common/fileinput.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/js/common/fileinput.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/common/jquery-1.9.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/js/common/jquery-1.9.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/common/jquery.actual.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/js/common/jquery.actual.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/common/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/js/common/zh.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/im-server/target/" />
+    <ignored path="$PROJECT_DIR$/im-distributed-server/target/" />
+    <ignored path="$PROJECT_DIR$/im-singel/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ChatServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/ChatServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QiniuUploadType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiniuUploadType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QiNiuApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiNiuApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileConst.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/FileConst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-165">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageUploadUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/ImageUploadUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="49" column="63" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MobileFrontEnd/weChat/js/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="2727">
+                <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileItemFactory.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar!/org/apache/commons/fileupload/FileItemFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/ChatController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>im-distributed-server</find>
+      <find>com.ycw.im.</find>
+      <find>im</find>
+      <find>com.ycw.</find>
+      <find>import com.ycw.</find>
+      <find>commons-io</find>
+      <find>chatServiceImpl</find>
+      <find>com.ycw.Mobilewechat</find>
+      <find>namespace=&quot;com.ycw.</find>
+      <find>type=&quot;com.ycw.</find>
+      <find>parameterType=&quot;com.ycw.</find>
+      <find>resultType=&quot;com.ycw.</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>com.ycw.im.imsingel.</replace>
+      <replace>import com.ycw.im.imsingel.</replace>
+      <replace>namespace=&quot;com.ycw.im.imsingel.</replace>
+      <replace>type=&quot;com.ycw.im.imsingel.</replace>
+      <replace>parameterType=&quot;com.ycw.im.imsingel.</replace>
+      <replace>resultType=&quot;com.ycw.im.imsingel.</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/im-server/pom.xml" />
+        <option value="$PROJECT_DIR$/im-distributed-server/pom.xml" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/State.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/NettyBoots.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/LoginResponseHandler.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/WebApplication.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/ChatMsg.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MD5Utils.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MyMapper.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/ChatMsgMapper.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/FriendsRequestMapper.java" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/MyFriendsMapper.java" />
+        <option value="$PROJECT_DIR$/im-singel/pom.xml" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/resources/mapper/ChatMsgMapper.xml" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/resources/mapper/FriendsRequestMapper.xml" />
+        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/ImageUploadUtils.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/software/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="im-singel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="im-singel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1271" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\souceCode\im-netty" />
+      <recent name="C:\souceCode\im-netty\im-singel\src\main\resources" />
+      <recent name="C:\souceCode\im-netty\im-singel\src\main\java\com\ycw\im\imsingel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ImServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="im-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycw.im.imserver.ImServerApplication" />
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="im-singel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycw.im.imsingel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ycw.im.imsingel.WebApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ImServerApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="380c28ac-67f3-41bc-bcc0-0567d434b4e6" name="Default" comment="" />
+      <created>1551006805703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551006805703</updated>
+      <workItem from="1551006809939" duration="68000" />
+      <workItem from="1551006885637" duration="186000" />
+      <workItem from="1551007079187" duration="5579000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5833000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.28487125" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.049493812" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.38132733" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29808775" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18025751" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/im-server/src/main/java/com/ycw/im/imserver/ImServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-netty.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/State.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/ImSingelApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/Init.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/LoginResponseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/NettyBoots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/pojo/DataContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar!/javax/annotation/sql/DataSourceDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/MyFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/ChatMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.7.RELEASE/spring-test-5.0.7.RELEASE.jar!/org/springframework/mock/web/MockMultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="39" column="105" selection-start-line="39" selection-start-column="94" selection-end-line="39" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/ChatMsgMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/FriendsRequestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/MyFriendsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/resources/mapper/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/SpringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/ChatStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/ChatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/FriendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/resources/mapper/ChatMsgMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/resources/mapper/FriendsRequestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/ChatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiniuUploadType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiNiuApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/FileConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar!/org/apache/commons/fileupload/FileItemFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileFrontEnd/weChat/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/ImageUploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2727">
+            <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>im-singel</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
