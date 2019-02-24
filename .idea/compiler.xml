@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="im-distributed-client" />
         <module name="im-distributed-server" />
+        <module name="im-distributed-zk" />
         <module name="im-singel" />
       </profile>
     </annotationProcessing>
