@@ -1,0 +1,14 @@
+syntax = "proto2";
+package protocol ;
+
+option java_package = "com.ycw.im.imdistributedcom.protocol";
+option java_outer_classname = "RequestProtocol";
+
+message ReqProtocol{
+    required int64 requestId = 2 ;
+    required string reqMsg = 1 ;
+    required int32 type = 3;
+
+}
+
+

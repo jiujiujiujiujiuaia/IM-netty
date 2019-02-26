@@ -23,6 +23,7 @@
         <module>im-distributed-client</module>
         <module>im-distributed-server</module>
         <module>im-distributed-zk</module>
+        <module>im-distributed-com</module>
     </modules>
 
     <properties>
@@ -32,7 +33,7 @@
         <lombok.version>1.16.12</lombok.version>
         <fastjson.version>1.2.29</fastjson.version>
         <junit.version>4.12</junit.version>
-        <netty.version>4.1.21.Final</netty.version>
+        <!--<netty.version>4.1.21.Final</netty.version>-->
         <logback.version>1.0.13</logback.version>
         <swagger.version>2.5.0</swagger.version>
 
@@ -51,12 +52,6 @@
                 <groupId>com.github.sgroschupf</groupId>
                 <artifactId>zkclient</artifactId>
                 <version>0.1</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.crossoverjie.netty</groupId>
-                <artifactId>cim-common</artifactId>
-                <version>1.0.1-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -92,7 +87,7 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
-                <version>${netty-all.version}</version>
+                <version>4.1.21.Final</version>
             </dependency>
 
             <dependency>
@@ -161,10 +156,15 @@
                 <version>1.3.1</version>
             </dependency>
             <!--mapper -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.20</version>
+            </dependency>
 
 
         </dependencies>
     </dependencyManagement>
 
-    
+
 </project>
