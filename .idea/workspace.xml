@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380c28ac-67f3-41bc-bcc0-0567d434b4e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-distributed-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/ImDistributedComApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-com/src/test/java/com/ycw/im/imdistributedcom/ImDistributedComApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/im-server/target/" />
@@ -39,54 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/constant/Constants.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="29" column="37" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendMsgReqVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/request/SendMsgReqVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionChannelHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SessionChannelHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -94,11 +51,33 @@
       <file leaf-file-name="ServerNettyInit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/init/ServerNettyInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="702">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#710#730#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImDistributedServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -106,8 +85,8 @@
       <file leaf-file-name="BeanConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="648">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +94,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle/ChatHandler.java">
+      <file leaf-file-name="ZKTool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="42" />
+            <state relative-caret-position="207">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistorZkTool.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/RegistorZkTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-558">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NettyAttrUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/util/NettyAttrUtil.java">
+      <file leaf-file-name="SwaggerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="477">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,13 +132,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SpringFactory.java">
+      <file leaf-file-name="AppConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/AppConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="378">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#241#257#1" expanded="true" />
+                <element signature="e#298#314#1" expanded="true" />
+                <element signature="e#355#373#1" expanded="true" />
+                <element signature="e#417#437#1" expanded="true" />
+                <element signature="e#482#514#1" expanded="true" />
+                <element signature="e#563#586#1" expanded="true" />
+                <element signature="e#633#660#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,6 +184,8 @@
       <find>ne</find>
       <find>google</find>
       <find>goo</find>
+      <find>cim</find>
+      <find>11211</find>
     </findStrings>
     <replaceStrings>
       <replace>com.ycw.im.imsingel.</replace>
@@ -196,6 +198,7 @@
       <replace>@author ycw</replace>
       <replace />
       <replace>:</replace>
+      <replace>im</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -244,7 +247,14 @@
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/init/ServerNettyInit.java" />
         <option value="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/util/NettyUtilAttr.java" />
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle/ChatHandler.java" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/RegistorZkTool.java" />
       </list>
     </option>
   </component>
@@ -304,6 +314,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,7 +365,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imdistributedcom" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedcom" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
@@ -429,7 +450,67 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
@@ -439,7 +520,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -482,7 +562,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebApplication">
+  <component name="RunManager" selected="Spring Boot.ImDistributedServerApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -552,10 +632,10 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ImServerApplication" />
-      <item itemvalue="Spring Boot.WebApplication" />
       <item itemvalue="Spring Boot.ImDistributedZkApplication" />
       <item itemvalue="Spring Boot.ImDistributedClientApplication" />
       <item itemvalue="Spring Boot.ImDistributedServerApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -576,19 +656,19 @@
       <workItem from="1551006809939" duration="68000" />
       <workItem from="1551006885637" duration="186000" />
       <workItem from="1551007079187" duration="7836000" />
-      <workItem from="1551167270820" duration="6304000" />
+      <workItem from="1551167270820" duration="7494000" />
+      <workItem from="1551257800897" duration="5999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14585000" />
+    <option name="totallyTimeSpent" value="21774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32995495" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.28473282" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -601,27 +681,27 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.074652776" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.38063064" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.29808775" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.375" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32832617" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32832617" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="JRebel" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.38132733" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,55 +719,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/ChatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/FriendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="75" column="21" selection-start-line="72" selection-start-column="7" selection-end-line="75" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/resources/mapper/ChatMsgMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/resources/mapper/FriendsRequestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/ChatController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -837,20 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-com/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
@@ -865,13 +882,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/A.java" />
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/request/SendMsgReqVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -884,34 +895,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SessionChannelHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
+        <state relative-caret-position="1107">
           <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle.java" />
     <entry file="file://$PROJECT_DIR$/im-distributed-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="729">
           <caret line="27" column="31" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
@@ -963,35 +958,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/constant/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="783">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/util/NettyAttrUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/init/ServerNettyInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1000,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SpringFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="297">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1010,8 +985,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle/ChatHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="42" />
+        <state relative-caret-position="504">
+          <caret line="48" column="101" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/init/ServerNettyInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/AppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#257#1" expanded="true" />
+            <element signature="e#298#314#1" expanded="true" />
+            <element signature="e#355#373#1" expanded="true" />
+            <element signature="e#417#437#1" expanded="true" />
+            <element signature="e#482#514#1" expanded="true" />
+            <element signature="e#563#586#1" expanded="true" />
+            <element signature="e#633#660#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/ImDistributedComApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/test/java/com/ycw/im/imdistributedcom/ImDistributedComApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#710#730#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/RegistorZkTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
