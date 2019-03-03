@@ -7,7 +7,7 @@ import lombok.Data;
  */
 @Data
 public class QueryAllFriendVo {
-   private String friendUserId;
-   private String friendNickname;
-   private String friendFaceImage;
+    private String friendUserId;
+    private String friendNickname;
+    private String friendFaceImage;
 }

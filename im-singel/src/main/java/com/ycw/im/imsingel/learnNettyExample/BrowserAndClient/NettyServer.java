@@ -10,7 +10,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  */
 public class NettyServer {
 
-    public static void init(){
+    public static void init() {
         NioEventLoopGroup bossGroup = new NioEventLoopGroup();
         NioEventLoopGroup workGroup = new NioEventLoopGroup();
         ServerBootstrap server = new ServerBootstrap();
@@ -22,11 +22,9 @@ public class NettyServer {
 
             ChannelFuture future = server.bind("127.0.0.1", 8088).sync();
             future.channel().closeFuture().sync();
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }
-        finally {
+        } finally {
             bossGroup.shutdownGracefully();
             workGroup.shutdownGracefully();
         }

@@ -16,7 +16,7 @@ public class ChatController {
     private ChatService chatService;
 
     @RequestMapping("/getUnSignMsgs")
-    public DataResult getUnSignMsgs(String acceptUserId){
+    public DataResult getUnSignMsgs(String acceptUserId) {
         return chatService.queryUnSignMsgs(acceptUserId);
     }
 

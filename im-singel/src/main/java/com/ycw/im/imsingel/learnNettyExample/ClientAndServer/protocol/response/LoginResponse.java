@@ -10,7 +10,7 @@ public class LoginResponse extends Packet {
     private String message;
     private String userName;
 
-    public Integer getCommand(){
+    public Integer getCommand() {
         return Command.LoginRespose.getCode();
     }
 }

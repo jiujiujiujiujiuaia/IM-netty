@@ -10,7 +10,6 @@ import io.netty.channel.Channel;
 public class HeartCheckStrategy implements Strategy {
 
 
-
     @Override
     public void handle(DataContent dataContent, Channel curChannel) {
         System.out.println("收到心跳检查");

@@ -32,11 +32,11 @@ public class ChatStrategy implements Strategy {
         chatMsg.setCreateTime(new Date());
         //签收flag 0 -> 未签收 1 -> 已签收
         chatMsg.setSignFlag(0);
-        ChatService chatService = (ChatService)SpringUtil.getBean("chatServiceImpl");
-        int msgId =  chatService.insertMsg(chatMsg);
+        ChatService chatService = (ChatService) SpringUtil.getBean("chatServiceImpl");
+        int msgId = chatService.insertMsg(chatMsg);
         chatMsgVo.setMsgId(String.valueOf(msgId));
         Channel receiveChannel = UserChannels.get(senderId);
-        if(receiveChannel != null){
+        if (receiveChannel != null) {
             receiveChannel.writeAndFlush(new TextWebSocketFrame(JsonUtils.objectToJson(chatMsgVo)));
         }
     }

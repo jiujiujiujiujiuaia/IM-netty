@@ -31,9 +31,10 @@ public class GlobalExceptionHandler {
     static {
         ERROR = new ResponseJson(HttpStatus.INTERNAL_SERVER_ERROR).setMsg("系统出错,请稍候再试");
     }
-    
+
     /**
      * 描述：默认异常提示
+     *
      * @param exception
      * @return
      */
@@ -43,9 +44,10 @@ public class GlobalExceptionHandler {
         LOG.error(exception.getMessage(), exception);
         return ERROR;
     }
-    
+
     /**
      * 描述：参数不合法默认异常提示
+     *
      * @param exception
      * @return
      */
@@ -54,9 +56,10 @@ public class GlobalExceptionHandler {
     public ResponseJson securityExceptionHandler(Exception exception) {
         return new ResponseJson(HttpStatus.INTERNAL_SERVER_ERROR).setMsg(exception.getMessage());
     }
-    
+
     /**
      * 描述：表单数据格式不正确异常提示
+     *
      * @param exception
      * @return
      */
@@ -78,6 +81,7 @@ public class GlobalExceptionHandler {
 
     /**
      * 描述：表单数据缺失异常提示
+     *
      * @param exception
      * @return
      */
@@ -89,6 +93,7 @@ public class GlobalExceptionHandler {
 
     /**
      * 描述：请求方法不支持异常提示
+     *
      * @param exception
      * @return
      */
@@ -98,13 +103,14 @@ public class GlobalExceptionHandler {
         String supportedMethods = exception.getSupportedHttpMethods().stream()
                 .map(method -> method.toString())
                 .collect(Collectors.joining("/"));
-        
+
         String msg = "请求方法不合法,请使用方法" + supportedMethods;
         return new ResponseJson(HttpStatus.METHOD_NOT_ALLOWED).setMsg(msg);
     }
-    
+
     /**
      * 描述：数据绑定失败异常提示
+     *
      * @param exception
      * @return
      */

@@ -16,4 +16,4 @@ public interface FriendsRequestMapper {
     List<QueryAddFriendRequestVo> queryFriendRequst(@Param("userId") String userId);
 
     void updateStatus(HandleFriendRequest request);
- }
+}

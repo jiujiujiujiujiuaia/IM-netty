@@ -8,18 +8,17 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 public class MessageRequestHandler extends SimpleChannelInboundHandler<MessageRequest> {
     @Override
-    public void channelRead0(ChannelHandlerContext ctx,MessageRequest request){
-        Channel channel ;
+    public void channelRead0(ChannelHandlerContext ctx, MessageRequest request) {
+        Channel channel;
         MessageResponse messageResponse = new MessageResponse();
-        System.out.println(request.getFromUsername()+"正在发送消息");
-        if((channel = LoginRuqestHandler.chatList.get(request.getToUserName()))!=null){
+        System.out.println(request.getFromUsername() + "正在发送消息");
+        if ((channel = LoginRuqestHandler.chatList.get(request.getToUserName())) != null) {
             messageResponse.setMessage(request.getMessage());
             messageResponse.setToUserName(request.getToUserName());
             messageResponse.setFromUserName(request.getFromUsername());
             messageResponse.setUp(true);
             channel.writeAndFlush(messageResponse);
-        }
-        else {
+        } else {
             messageResponse.setUp(false);
             messageResponse.setMessage("对方没有上线");
             ctx.channel().writeAndFlush(messageResponse);

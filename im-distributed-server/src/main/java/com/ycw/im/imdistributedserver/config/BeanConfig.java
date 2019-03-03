@@ -17,7 +17,7 @@ public class BeanConfig {
     private AppConfiguration appConfiguration;
 
     @Bean
-    public RequestProtocol.ReqProtocol heartbeat(){
+    public RequestProtocol.ReqProtocol heartbeat() {
         RequestProtocol.ReqProtocol heart = RequestProtocol.ReqProtocol.newBuilder()
                 .setRequestId(0L)
                 .setReqMsg("服务端pong")
@@ -27,7 +27,7 @@ public class BeanConfig {
     }
 
     @Bean
-    public ZkClient zkClient(){
-        return new ZkClient(appConfiguration.getZkAddr(),appConfiguration.getZkConnectTimeout());
+    public ZkClient zkClient() {
+        return new ZkClient(appConfiguration.getZkAddr(), appConfiguration.getZkConnectTimeout());
     }
 }   

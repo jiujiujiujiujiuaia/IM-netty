@@ -18,10 +18,10 @@ public class ImDistributedServerApplication implements CommandLineRunner {
     private final static Logger LOGGER = LoggerFactory.getLogger(ImDistributedServerApplication.class);
 
     @Autowired
-    private AppConfiguration appConfiguration ;
+    private AppConfiguration appConfiguration;
 
     @Value("${server.port}")
-    private int httpPort ;
+    private int httpPort;
 
     public static void main(String[] args) {
         SpringApplication.run(ImDistributedServerApplication.class, args);
@@ -32,8 +32,9 @@ public class ImDistributedServerApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         String localAdree = InetAddress.getLocalHost().getHostAddress();
-        Thread thread = new Thread(new RegistorZkTool(localAdree,appConfiguration.getImServerPort(),httpPort));
+        Thread thread = new Thread(new RegistorZkTool(localAdree, appConfiguration.getImServerPort(), httpPort));
         thread.setName("registry-zk");
         thread.start();
-;    }
+        ;
+    }
 }

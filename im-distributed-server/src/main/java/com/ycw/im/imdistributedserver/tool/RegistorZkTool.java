@@ -20,13 +20,13 @@ public class RegistorZkTool implements Runnable {
     private int httpPort;
 
 
-    private AppConfiguration config ;
+    private AppConfiguration config;
 
-    private ZKTool zkTool ;
+    private ZKTool zkTool;
 
-    public RegistorZkTool(String ip,int nettyPort, int httpPort){
-        this.ip = ip ;
-        this.httpPort = httpPort ;
+    public RegistorZkTool(String ip, int nettyPort, int httpPort) {
+        this.ip = ip;
+        this.httpPort = httpPort;
         this.nettyPort = nettyPort;
         config = SpringFactory.getBean(AppConfiguration.class);
         zkTool = SpringFactory.getBean(ZKTool.class);
@@ -36,10 +36,10 @@ public class RegistorZkTool implements Runnable {
     @Override
     public void run() {
         zkTool.createRootNode();
-        if(config.isZkSwitch()){
-            String path = config.getZkRoot() + "/ip" +  ip + ":" + nettyPort + ":" + httpPort ;
+        if (config.isZkSwitch()) {
+            String path = config.getZkRoot() + "/ip-" + ip + ":" + httpPort + ":" + nettyPort;
             zkTool.createNode(path);
-            logger.info("服务端注册到zookeeper成功，节点信息为{}",path);
+            logger.info("服务端注册到zookeeper成功，节点信息为{}", path);
         }
     }
 }

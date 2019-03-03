@@ -7,11 +7,11 @@ import io.netty.channel.Channel;
  * @Author yuchunwei
  */
 public class Context {
-    private Strategy strategy ;
+    private Strategy strategy;
 
-    public static void handle(DataContent dataContent, Channel curChannel){
+    public static void handle(DataContent dataContent, Channel curChannel) {
         Strategy strategy = StrategyFactory.getInstance().create(dataContent.getAction());
-        strategy.handle(dataContent,curChannel);
+        strategy.handle(dataContent, curChannel);
     }
 
     public Strategy getStrategy() {

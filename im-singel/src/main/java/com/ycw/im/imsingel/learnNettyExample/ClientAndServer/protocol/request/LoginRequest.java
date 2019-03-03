@@ -9,7 +9,7 @@ public class LoginRequest extends Packet {
     private String username;
     private String password;
 
-    public Integer getCommand(){
+    public Integer getCommand() {
         return Command.LoginRequest.getCode();
     }
 

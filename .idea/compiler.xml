@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="im-distributed-client" />
         <module name="im-distributed-com" />
+        <module name="im-distributed-route" />
         <module name="im-distributed-server" />
         <module name="im-distributed-zk" />
         <module name="im-singel" />

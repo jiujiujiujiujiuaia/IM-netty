@@ -37,32 +37,32 @@ public class Server {
 
 
     @PostConstruct
-    public void start() throws Exception{
+    public void start() throws Exception {
         ServerBootstrap serverBootstrap = new ServerBootstrap();
         serverBootstrap
-                .group(boss,work)
+                .group(boss, work)
                 .channel(NioServerSocketChannel.class)
                 .localAddress(new InetSocketAddress(port))
-                .childOption(ChannelOption.SO_KEEPALIVE,true)
+                .childOption(ChannelOption.SO_KEEPALIVE, true)
                 .childHandler(new ServerNettyInit());
         ChannelFuture future = serverBootstrap.bind().sync();
-        if(future.isSuccess()){
-            LOGGER.info("netty服务端程序已启动"  + "端口为" + port );
+        if (future.isSuccess()) {
+            LOGGER.info("netty服务端程序已启动" + "端口为" + port);
         }
     }
 
     @PreDestroy
-    public void destroy(){
+    public void destroy() {
         boss.shutdownGracefully().syncUninterruptibly();
         work.shutdownGracefully().syncUninterruptibly();
         LOGGER.info("服务端程序已经关闭");
     }
 
     //转发消息方法
-    public void sendMsg(SendMsgReqVo reqVo){
+    public void sendMsg(SendMsgReqVo reqVo) {
         NioSocketChannel channel = SessionChannelHolder.getChannel(reqVo.getUserId());
-        if(channel == null){
-            throw  new NullPointerException("用户[" + reqVo.getUserId() +"]没有上线");
+        if (channel == null) {
+            throw new NullPointerException("用户[" + reqVo.getUserId() + "]没有上线");
         }
         RequestProtocol.ReqProtocol protocol = RequestProtocol.ReqProtocol.newBuilder()
                 .setReqMsg(reqVo.getMsg())
@@ -70,8 +70,8 @@ public class Server {
                 .setRequestId(reqVo.getUserId())
                 .build();
         ChannelFuture future = channel.writeAndFlush(protocol);
-        future.addListener((ChannelFutureListener)channelFuture ->
-            LOGGER.info("服务端转发Goolgel protocol 成功 ：{}" , reqVo.toString())
+        future.addListener((ChannelFutureListener) channelFuture ->
+                LOGGER.info("服务端转发Goolgel protocol 成功 ：{}", reqVo.toString())
         );
     }
 

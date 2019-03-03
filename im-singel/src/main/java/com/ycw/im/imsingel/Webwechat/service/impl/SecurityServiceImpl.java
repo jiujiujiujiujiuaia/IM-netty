@@ -14,14 +14,14 @@ import javax.servlet.http.HttpSession;
 import java.text.MessageFormat;
 
 @Service
-public class SecurityServiceImpl implements SecurityService{
+public class SecurityServiceImpl implements SecurityService {
 
     @Autowired
     private UserInfoDao userInfoDao;
-    
+
     private static final Logger LOGGER = LoggerFactory.getLogger(SecurityServiceImpl.class);
-    
-    
+
+
     @Override
     public ResponseJson login(String username, String password, HttpSession session) {
         UserInfo userInfo = userInfoDao.getByUsername(username);

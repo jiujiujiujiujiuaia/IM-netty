@@ -16,20 +16,20 @@ public class ZKTool {
     private ZkClient zkClient;
 
     @Autowired
-    private AppConfiguration config ;
+    private AppConfiguration config;
 
 
     //写根节点
-    public void createRootNode(){
+    public void createRootNode() {
         boolean exits = zkClient.exists(config.getZkRoot());
-        if(exits){
-            return ;
+        if (exits) {
+            return;
         }
         zkClient.createPersistent(config.getZkRoot());
     }
 
     //创建临时节点
-    public void createNode(String path){
+    public void createNode(String path) {
         zkClient.createEphemeral(path);
     }
 }   

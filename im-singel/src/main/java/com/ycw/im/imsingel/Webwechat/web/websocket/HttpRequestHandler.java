@@ -29,11 +29,12 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<Object> {
             handleHttpRequest(ctx, (FullHttpRequest) msg);
         } else if (msg instanceof WebSocketFrame) {
             ctx.fireChannelRead(((WebSocketFrame) msg).retain());
-        } 
+        }
     }
 
     /**
      * 描述：处理Http请求，主要是完成HTTP协议到Websocket协议的升级
+     *
      * @param ctx
      * @param req
      */
@@ -55,7 +56,7 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<Object> {
             handshaker.handshake(ctx.channel(), req);
         }
     }
-    
+
     private void sendHttpResponse(ChannelHandlerContext ctx, FullHttpRequest req, DefaultFullHttpResponse res) {
         // 返回应答给客户端
         if (res.status().code() != 200) {

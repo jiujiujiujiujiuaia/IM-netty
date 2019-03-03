@@ -11,7 +11,7 @@ public class MessageResponse extends Packet {
     private String fromUserName;
     private boolean isUp;
 
-    public Integer getCommand(){
+    public Integer getCommand() {
         return Command.MessageResponse.getCode();
     }
 }

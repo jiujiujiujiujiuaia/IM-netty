@@ -28,13 +28,12 @@ public class FriendServiceImpl implements FriendService {
     private FriendsRequestMapper friendsRequestMapper;
 
     @Override
-    public DataResult addFriend(AddFriendRequst requst){
-        if(requst.getMyUserId().equals(requst.getFriendId())){
+    public DataResult addFriend(AddFriendRequst requst) {
+        if (requst.getMyUserId().equals(requst.getFriendId())) {
             return DataResult.errorMsg(AddFriendRequstEnum.ISYOURSELF.getMessage());
-        }
-        else {
+        } else {
             List<String> friends = myFriendsMapper.selectFriendIds(requst.getMyUserId());
-            if(friends.contains(requst.getFriendId())){
+            if (friends.contains(requst.getFriendId())) {
                 return DataResult.errorMsg(AddFriendRequstEnum.ISYOURFRIEND.getMessage());
             }
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd:HH-mm-ss");
@@ -45,31 +44,33 @@ public class FriendServiceImpl implements FriendService {
     }
 
     @Override
-    public DataResult queryFriendRequest(String userId){
-        if(userId !=null && !userId.equals("")){
-           List<QueryAddFriendRequestVo> vo  =  friendsRequestMapper.queryFriendRequst(userId);
-           return DataResult.ok(vo);
+    public DataResult queryFriendRequest(String userId) {
+        if (userId != null && !userId.equals("")) {
+            List<QueryAddFriendRequestVo> vo = friendsRequestMapper.queryFriendRequst(userId);
+            return DataResult.ok(vo);
         }
         return DataResult.errorMsg("请先登陆");
     }
+
     @Override
-    public  DataResult operFriendRequest(HandleFriendRequest request){
+    public DataResult operFriendRequest(HandleFriendRequest request) {
         request.setStatus(AddFriendRequstEnum.HANDLED.getCode());
         friendsRequestMapper.updateStatus(request);
-        if(request.getOperType().equals("1")){
-            myFriendsMapper.insertFriend(request.getAcceptUserId(),request.getSendUserId());
-            myFriendsMapper.insertFriend(request.getSendUserId(),request.getAcceptUserId());
+        if (request.getOperType().equals("1")) {
+            myFriendsMapper.insertFriend(request.getAcceptUserId(), request.getSendUserId());
+            myFriendsMapper.insertFriend(request.getSendUserId(), request.getAcceptUserId());
         }
         List<String> ids = myFriendsMapper.selectFriendIds(request.getAcceptUserId());
         List<QueryAllFriendVo> res = myFriendsMapper.selectFriends(ids);
         return DataResult.ok(res);
     }
+
     @Override
-    public DataResult getAllFriend(String userId){
+    public DataResult getAllFriend(String userId) {
         System.out.println("获取所有好友");
         List<QueryAllFriendVo> res = new ArrayList<>();
         List<String> ids = myFriendsMapper.selectFriendIds(userId);
-        if(ids.size() > 0) res = myFriendsMapper.selectFriends(ids);
+        if (ids.size() > 0) res = myFriendsMapper.selectFriends(ids);
         return DataResult.ok(res);
     }
 }   

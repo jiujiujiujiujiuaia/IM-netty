@@ -10,7 +10,6 @@ import org.slf4j.LoggerFactory;
  * Function:
  *
  * @author ycw
- *
  * @since JDK 1.8
  */
 public class RegistryZK implements Runnable {
@@ -19,7 +18,7 @@ public class RegistryZK implements Runnable {
 
     private ZKit zkUtil;
 
-    private AppConfiguration appConfiguration ;
+    private AppConfiguration appConfiguration;
 
     private String ip;
     private int port;
@@ -27,8 +26,8 @@ public class RegistryZK implements Runnable {
     public RegistryZK(String ip, int port) {
         this.ip = ip;
         this.port = port;
-        zkUtil = SpringBeanFactory.getBean(ZKit.class) ;
-        appConfiguration = SpringBeanFactory.getBean(AppConfiguration.class) ;
+        zkUtil = SpringBeanFactory.getBean(ZKit.class);
+        appConfiguration = SpringBeanFactory.getBean(AppConfiguration.class);
     }
 
     @Override
@@ -38,7 +37,7 @@ public class RegistryZK implements Runnable {
         zkUtil.createRootNode();
 
         //是否要将自己注册到 ZK
-        if (appConfiguration.isZkSwitch()){
+        if (appConfiguration.isZkSwitch()) {
             String path = appConfiguration.getZkRoot() + "/ip-" + ip + ":" + port;
             zkUtil.createNode(path, path);
             logger.info("注册 zookeeper 成功，msg=[{}]", path);

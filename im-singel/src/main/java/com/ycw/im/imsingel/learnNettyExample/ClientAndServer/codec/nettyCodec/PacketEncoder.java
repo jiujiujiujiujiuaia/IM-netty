@@ -10,6 +10,6 @@ import io.netty.handler.codec.MessageToByteEncoder;
 public class PacketEncoder extends MessageToByteEncoder<Packet> {
     @Override
     protected void encode(ChannelHandlerContext ctx, Packet packet, ByteBuf out) {
-        Codec.INSTANCE.encode(out,packet);
+        Codec.INSTANCE.encode(out, packet);
     }
 }

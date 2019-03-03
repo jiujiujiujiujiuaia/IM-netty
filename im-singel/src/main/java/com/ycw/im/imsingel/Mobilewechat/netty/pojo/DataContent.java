@@ -10,8 +10,8 @@ import lombok.Data;
 public class DataContent {
     private static final long serialVersionUID = 8021381444738260454L;
 
-    private Integer action;		// 动作类型
+    private Integer action;        // 动作类型
     @JsonProperty(value = "ChatMsgVo")
-    private ChatMsgVo chatMsgVo;	// 用户的聊天内容entity
-    private String extand;		// 扩展字段
+    private ChatMsgVo chatMsgVo;    // 用户的聊天内容entity
+    private String extand;        // 扩展字段
 }

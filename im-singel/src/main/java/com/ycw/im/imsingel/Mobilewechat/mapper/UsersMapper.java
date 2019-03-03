@@ -6,7 +6,7 @@ import com.ycw.im.imsingel.Mobilewechat.pojo.Users;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UsersMapper  {
+public interface UsersMapper {
     Users queryUsername(String username);
 
     void registor(String username, String password);
@@ -20,8 +20,6 @@ public interface UsersMapper  {
     void updateNickName(UserBo userBo);
 
     UserVoResult selecUserByUserName(String userName);
-
-
 
 
 }

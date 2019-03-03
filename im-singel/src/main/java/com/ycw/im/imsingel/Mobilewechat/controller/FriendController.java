@@ -16,21 +16,25 @@ import org.springframework.web.bind.annotation.*;
 public class FriendController {
     @Autowired
     private FriendService friendService;
+
     @PostMapping("/addFriendRequest")
-    public DataResult addFriend(@RequestBody AddFriendRequst requst){
+    public DataResult addFriend(@RequestBody AddFriendRequst requst) {
         return friendService.addFriend(requst);
     }
+
     @RequestMapping("/queryFriendRequests")
-    public DataResult queryRequest(UserBo userBo){
+    public DataResult queryRequest(UserBo userBo) {
         return friendService.queryFriendRequest(userBo.getUserId());
     }
+
     //忽略是0 同意是1
     @RequestMapping("/operFriendRequest")
-    public DataResult operFriendRequest(HandleFriendRequest request){
+    public DataResult operFriendRequest(HandleFriendRequest request) {
         return friendService.operFriendRequest(request);
     }
+
     @RequestMapping("/myFriends")
-    public DataResult getAllFriends(String userId){
+    public DataResult getAllFriends(String userId) {
         return friendService.getAllFriend(userId);
     }
 

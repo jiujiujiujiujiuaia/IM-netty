@@ -2,11 +2,11 @@ package com.ycw.im.imsingel.Mobilewechat.pojo;
 
 /**
  * @Description: 自定义响应数据结构
- * 				200：表示成功
- * 				500：表示错误，错误信息在msg字段中
- * 				501：bean验证错误，不管多少个错误都以map形式返回
- * 				502：拦截器拦截到用户token出错
- * 				555：异常抛出信息
+ * 200：表示成功
+ * 500：表示错误，错误信息在msg字段中
+ * 501：bean验证错误，不管多少个错误都以map形式返回
+ * 502：拦截器拦截到用户token出错
+ * 555：异常抛出信息
  */
 public class DataResult {
 
@@ -18,8 +18,8 @@ public class DataResult {
 
     // 响应中的数据
     private Object data;
-    
-    private String ok;	// 不使用
+
+    private String ok;    // 不使用
 
     public static DataResult build(Integer status, String msg, Object data) {
         return new DataResult(status, msg, data);
@@ -32,19 +32,19 @@ public class DataResult {
     public static DataResult ok() {
         return new DataResult(null);
     }
-    
+
     public static DataResult errorMsg(String msg) {
         return new DataResult(500, msg, null);
     }
-    
+
     public static DataResult errorMap(Object data) {
         return new DataResult(501, "error", data);
     }
-    
+
     public static DataResult errorTokenMsg(String msg) {
         return new DataResult(502, msg, null);
     }
-    
+
     public static DataResult errorException(String msg) {
         return new DataResult(555, msg, null);
     }
@@ -97,12 +97,12 @@ public class DataResult {
         this.data = data;
     }
 
-	public String getOk() {
-		return ok;
-	}
+    public String getOk() {
+        return ok;
+    }
 
-	public void setOk(String ok) {
-		this.ok = ok;
-	}
+    public void setOk(String ok) {
+        this.ok = ok;
+    }
 
 }

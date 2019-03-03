@@ -4,6 +4,7 @@ package com.ycw.im.imsingel.Mobilewechat.utils;
  * @Author yuchunwei
  * 代码有两处注意需要修改
  */
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -84,7 +85,7 @@ public class TrieTree {
     public List<String> prefixSearch(String key) {
         List<String> value = new ArrayList<String>();
         //注意
-        if (key !=null) {
+        if (key != null) {
             return value;
         }
 

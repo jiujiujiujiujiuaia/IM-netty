@@ -27,7 +27,7 @@ public class LoginController {
 
     @Autowired
     private UserService userService;
-    
+
     @RequestMapping(value = {"login", "/"}, method = RequestMethod.GET)
     public ModelAndView toLogin() {
         return new ModelAndView("login.html");
@@ -36,11 +36,11 @@ public class LoginController {
     @PostMapping("/login")
     @ResponseBody
     public DataResult login(HttpSession session, Users users) {
-        if(UserController.isVaild(users.getUsername(),users.getPassword())){
+        if (UserController.isVaild(users.getUsername(), users.getPassword())) {
             return DataResult.errorMsg("密码或者用户名不能为空");
         }
         DataResult result = userService.login(users);
-        if(result.getStatus() == 200){
+        if (result.getStatus() == 200) {
             session.setAttribute(Constant.USER_TOKEN, users.getId());
         }
         return result;
@@ -51,7 +51,7 @@ public class LoginController {
     public DataResult logout(HttpSession session) {
         Object userId = session.getAttribute(Constant.USER_TOKEN);
         if (userId == null) {
-            return  DataResult.errorMsg("请先登陆");
+            return DataResult.errorMsg("请先登陆");
         }
         session.removeAttribute(Constant.USER_TOKEN);
         LOGGER.info(MessageFormat.format("userId为 {0} 的用户已注销登录!", userId));

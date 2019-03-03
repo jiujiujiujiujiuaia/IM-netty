@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @RequestMapping("/index")
-    public String test(){
+    public String test() {
         return "hello netty";
     }
+
     public static void main(String[] args) {
 
     }

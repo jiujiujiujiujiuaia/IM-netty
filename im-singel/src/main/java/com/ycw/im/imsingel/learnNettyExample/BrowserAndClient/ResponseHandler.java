@@ -16,14 +16,14 @@ public class ResponseHandler extends SimpleChannelInboundHandler<HttpObject> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, HttpObject httpObject) throws Exception {
         Channel channel = ctx.channel();
-        ByteBuf byteBuf =ctx.alloc().buffer();
+        ByteBuf byteBuf = ctx.alloc().buffer();
         byteBuf.writeBytes("Hello Netty ".getBytes(Charset.forName("UTF-8")));
 //        ByteBuf content = Unpooled.copiedBuffer("Hello netty~", CharsetUtil.UTF_8);
         System.out.println("ip :" + channel.remoteAddress());
         FullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1,
-                HttpResponseStatus.OK,byteBuf);
-        response.headers().set(HttpHeaderNames.CONTENT_TYPE,"text/plain");
-        response.headers().set(HttpHeaderNames.CONTENT_LENGTH,byteBuf.readableBytes());
+                HttpResponseStatus.OK, byteBuf);
+        response.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/plain");
+        response.headers().set(HttpHeaderNames.CONTENT_LENGTH, byteBuf.readableBytes());
 
         ctx.writeAndFlush(response);
     }

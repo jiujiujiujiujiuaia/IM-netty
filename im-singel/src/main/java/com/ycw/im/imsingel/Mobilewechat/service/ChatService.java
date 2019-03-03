@@ -6,10 +6,10 @@ import com.ycw.im.imsingel.Mobilewechat.pojo.DataResult;
 import java.util.List;
 
 public interface ChatService {
-     int insertMsg(ChatMsg msg);
+    int insertMsg(ChatMsg msg);
 
-     DataResult queryUnSignMsgs(String accpetId);
+    DataResult queryUnSignMsgs(String accpetId);
 
-     void updateMsgToSign(List<String> ids);
+    void updateMsgToSign(List<String> ids);
 
 }

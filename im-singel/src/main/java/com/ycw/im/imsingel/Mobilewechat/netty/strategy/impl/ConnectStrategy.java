@@ -12,8 +12,8 @@ import io.netty.channel.Channel;
 public class ConnectStrategy implements Strategy {
 
     @Override
-    public void handle(DataContent dataContent , Channel curChannel) {
+    public void handle(DataContent dataContent, Channel curChannel) {
         ChatMsgVo chatMsgVo = dataContent.getChatMsgVo();
-        UserChannels.put(dataContent.getChatMsgVo().getSenderId(),curChannel);
+        UserChannels.put(dataContent.getChatMsgVo().getSenderId(), curChannel);
     }
 }

@@ -12,7 +12,7 @@ public class CloseStrategy implements Strategy {
 
     @Override
     public void handle(DataContent dataContent, Channel curChannel) {
-        UserChannels.put(dataContent.getExtand(),null);
-        System.out.println("用户"+dataContent.getExtand()+"被移除");
+        UserChannels.put(dataContent.getExtand(), null);
+        System.out.println("用户" + dataContent.getExtand() + "被移除");
     }
 }

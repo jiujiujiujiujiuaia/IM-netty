@@ -4,12 +4,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/im-distributed-server/pom.xml" />
         <option value="$PROJECT_DIR$/im-singel/pom.xml" />
         <option value="$PROJECT_DIR$/im-distributed-zk/pom.xml" />
         <option value="$PROJECT_DIR$/im-distributed-client/pom.xml" />
         <option value="$PROJECT_DIR$/im-distributed-com/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/im-distributed-route/pom.xml" />
       </list>
     </option>
   </component>

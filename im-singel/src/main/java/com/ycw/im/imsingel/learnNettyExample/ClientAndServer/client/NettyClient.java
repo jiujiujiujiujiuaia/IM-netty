@@ -22,7 +22,7 @@ import java.util.Scanner;
 
 
 public class NettyClient {
-    public static void init(){
+    public static void init() {
         NioEventLoopGroup group = new NioEventLoopGroup();
         Bootstrap bootstrap = new Bootstrap();
         bootstrap
@@ -33,15 +33,16 @@ public class NettyClient {
                 .option(ChannelOption.TCP_NODELAY, true)
                 .handler(new ChannelInitializer<SocketChannel>() {
                     @Override
-                    public void initChannel(SocketChannel sc){
+                    public void initChannel(SocketChannel sc) {
                         sc.pipeline().addLast(new PacketDecoder());
                         sc.pipeline().addLast(new LoginResponseHandler());
                         sc.pipeline().addLast(new MessageResponseHandler());
                         sc.pipeline().addLast(new PacketEncoder());
                     }
                 });
-        connect(bootstrap,"127.0.0.1",6666,10);
+        connect(bootstrap, "127.0.0.1", 6666, 10);
     }
+
     private static void connect(Bootstrap bootstrap, String host, int port, int retry) {
         bootstrap.connect(host, port).addListener(future -> {
             if (future.isSuccess()) {
@@ -51,32 +52,32 @@ public class NettyClient {
             }
         });
     }
+
     private static void startConsoleThread(Channel channel) {
         Scanner sc = new Scanner(System.in);
         LoginRequest request = new LoginRequest();
-        new Thread(() ->{
-            while (!Thread.interrupted()){
-                if(!LoginUtil.isLogin(channel)) {
+        new Thread(() -> {
+            while (!Thread.interrupted()) {
+                if (!LoginUtil.isLogin(channel)) {
                     System.out.println("请输入您的用户名");
                     request.setUsername(sc.nextLine());
                     channel.writeAndFlush(request);
-                    try{
+                    try {
                         Thread.sleep(1000);
-                    }
-                    catch (Exception e){
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
-                }
-                else {
+                } else {
                     System.out.println("请输入消息");
                     String username = sc.nextLine();
-                    MessageRequest messageRequest = new MessageRequest(username.split(" ")[1],username.split(" ")[0],LoginUtil.getUserName(channel));
+                    MessageRequest messageRequest = new MessageRequest(username.split(" ")[1], username.split(" ")[0], LoginUtil.getUserName(channel));
                     channel.writeAndFlush(messageRequest);
                 }
             }
         }).start();
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         init();
     }
 }

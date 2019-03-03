@@ -18,7 +18,7 @@ public class ServerNettyInit extends ChannelInitializer<Channel> {
     protected void initChannel(Channel channel) throws Exception {
 
         channel.pipeline()
-                 .addLast(new IdleStateHandler(11, 0, 0))
+                .addLast(new IdleStateHandler(11, 0, 0))
                 // google Protobuf 编解码
                 .addLast(new ProtobufVarint32FrameDecoder())
                 .addLast(new ProtobufDecoder(RequestProtocol.ReqProtocol.getDefaultInstance()))

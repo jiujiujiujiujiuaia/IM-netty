@@ -2,12 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380c28ac-67f3-41bc-bcc0-0567d434b4e6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/ImDistributedComApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-distributed-com/src/test/java/com/ycw/im/imdistributedcom/ImDistributedComApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/chatlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/chatlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/chatting.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/chatting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/mui.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/mui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/mui.indexedlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/mui.indexedlist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/registLogin/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/registLogin/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/registLogin/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/css/registLogin/util.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/discover.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/discover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/mui.indexedlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/mui.indexedlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/mui.js" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/mui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/nickname.js" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/js/nickname.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/me.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/myface.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/myface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/mynickname.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/mynickname.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/css/cropper.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/css/cropper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/js/cropper.js" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/js/cropper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/uploader.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/cropper/uploader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/css/cropper.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/css/cropper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/js/cropper.js" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/js/cropper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/myface-uploader.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/plugin/v3.1.6/myface-uploader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/searchFriends.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/searchFriends.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileFrontEnd/weChat/searchFriendsResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/MobileFrontEnd/weChat/searchFriendsResult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-com/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-com/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/pojo/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/pojo/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/protocol/RequestProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/protocol/RequestProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/protocol/ResponseProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/protocol/ResponseProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/AppConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/init/ServerNettyInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/init/ServerNettyInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/RegistorZkTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/RegistorZkTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SessionChannelHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SessionChannelHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/request/SendMsgReqVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/request/SendMsgReqVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/cache/ServerCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/cache/ServerCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/thread/RegistryZK.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/thread/RegistryZK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/SpringBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/SpringBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/ZKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/ZKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/FriendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/FriendController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/enums/AddFriendRequstEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/enums/AddFriendRequstEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/enums/MsgStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/enums/MsgStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/FriendsRequestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/FriendsRequestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/UsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/pojo/ChatMsgVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/pojo/ChatMsgVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/pojo/DataContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/pojo/DataContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/StrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/StrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/ChatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/ChatStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/CloseStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/CloseStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/ConnectStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/ConnectStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/HeartCheckStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/HeartCheckStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/SignStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/impl/SignStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiNiuApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiNiuApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/DataResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/DataResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/vo/QueryAllFriendVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/vo/QueryAllFriendVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/ChatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/ChatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/FriendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/FriendServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/ImageUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/ImageUploadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/SpringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/TrieTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/TrieTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/GroupInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/GroupInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/UserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/UserInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/impl/GroupInfoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/impl/GroupInfoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/impl/UserInfoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/dao/impl/UserInfoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/po/GroupInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/po/GroupInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/po/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/po/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/vo/ResponseJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/model/vo/ResponseJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/FileUploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/FileUploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/SecurityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/SecurityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/WebChatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/service/impl/WebChatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/ChatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/ChatType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/JsonMsgHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/util/JsonMsgHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/ChatroomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/ChatroomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/common/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/interceptor/UserAuthInteceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/interceptor/UserAuthInteceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/HttpRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/HttpRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketChildChannelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketChildChannelHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/ResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/BrowserAndClient/ResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/LoginResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/LoginResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/MessageResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/MessageResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/codec/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/codec/Codec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/codec/nettyCodec/PacketEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/codec/nettyCodec/PacketEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/request/MessageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/request/MessageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/response/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/response/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/response/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/response/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/serializer/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/protocol/serializer/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/AuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/AuthHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/LoginRuqestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/LoginRuqestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/MessageRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/server/handler/MessageRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/LoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/LoginUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/WebSocketAndNetty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/WebSocketAndNetty/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/WebSocketAndNetty/WsServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/WebSocketAndNetty/WsServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/ChatMsgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/ChatMsgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/FriendsRequestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/FriendsRequestMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/MyFriendsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/MyFriendsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/public/chatroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/public/chatroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/public/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/chatroom.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/chatroom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/common/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/common/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-singel/src/main/resources/static/js/chatroom.js" beforeDir="false" afterPath="$PROJECT_DIR$/im-singel/src/main/resources/static/js/chatroom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/im-server/target/" />
@@ -16,6 +165,7 @@
     <ignored path="$PROJECT_DIR$/im-distributed-zk/target/" />
     <ignored path="$PROJECT_DIR$/im-distributed-client/target/" />
     <ignored path="$PROJECT_DIR$/im-distributed-com/target/" />
+    <ignored path="$PROJECT_DIR$/im-distributed-route/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +189,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties">
+      <file leaf-file-name="AccountServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/impl/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerNettyInit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/init/ServerNettyInit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="342">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,33 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java">
+      <file leaf-file-name="OffLoginReq.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/OffLoginReq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#710#730#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImDistributedServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeanConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="243">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,25 +213,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZKTool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java">
+      <file leaf-file-name="UserLocalCacheService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/UserLocalCacheService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistorZkTool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/RegistorZkTool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-558">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="432">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,11 +225,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwaggerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/SwaggerConfig.java">
+      <file leaf-file-name="UserLocalCacheImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/impl/UserLocalCacheImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountSerice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/AccountSerice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/controller/RouteController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="477">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#1966#1967#0" expanded="true" />
+                <element signature="e#2012#2013#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZkListenServerList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/ZkListenServerList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,21 +281,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/AppConfiguration.java">
+      <file leaf-file-name="ServerRouteCache.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/ServerRouteCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="1377">
+              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#241#257#1" expanded="true" />
-                <element signature="e#298#314#1" expanded="true" />
-                <element signature="e#355#373#1" expanded="true" />
-                <element signature="e#417#437#1" expanded="true" />
-                <element signature="e#482#514#1" expanded="true" />
-                <element signature="e#563#586#1" expanded="true" />
-                <element signature="e#633#660#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBeanFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/SpringBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/enums/StatusEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -156,6 +319,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -181,11 +345,16 @@
       <find>Date:</find>
       <find>Date: 2018/8/19 01:31</find>
       <find>Da</find>
-      <find>ne</find>
       <find>google</find>
       <find>goo</find>
       <find>cim</find>
       <find>11211</find>
+      <find>nety</find>
+      <find>ne</find>
+      <find>129.204.8.88</find>
+      <find>app\.zk\.addr\=129\.204\.8\.88\:2182\n</find>
+      <find>throw</find>
+      <find>redisTemplate</find>
     </findStrings>
     <replaceStrings>
       <replace>com.ycw.im.imsingel.</replace>
@@ -207,37 +376,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/im-server/pom.xml" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/util/State.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/learnNettyExample/ClientAndServer/client/handler/LoginResponseHandler.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/WebApplication.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/pojo/ChatMsg.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MD5Utils.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/MyMapper.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/UsersMapper.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/ChatMsgMapper.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/FriendsRequestMapper.java" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/mapper/MyFriendsMapper.java" />
-        <option value="$PROJECT_DIR$/im-singel/pom.xml" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/resources/mapper/ChatMsgMapper.xml" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/resources/mapper/FriendsRequestMapper.xml" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/ImageUploadUtils.java" />
-        <option value="$PROJECT_DIR$/im-distributed-client/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/NettyBoots.java" />
-        <option value="$PROJECT_DIR$/im-distributed-zk/pom.xml" />
-        <option value="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/cache/ServerCache.java" />
-        <option value="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/thread/RegistryZK.java" />
-        <option value="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/ZKit.java" />
-        <option value="$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SessionAndChannelHolder.java" />
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SessionhannelHolder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/im-distributed-server/pom.xml" />
-        <option value="$PROJECT_DIR$/im-distributed-com/pom.xml" />
         <option value="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/pojo/UserInfo.java" />
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SessionChannelHolder.java" />
         <option value="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/protocol/chat.proto" />
@@ -254,7 +395,38 @@
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java" />
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java" />
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/response/SendMsgResVo.java" />
+        <option value="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/vo/req/BaseRequst.java" />
+        <option value="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/vo/req/BaseRequest.java" />
+        <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/request/SendMsgReqVo.java" />
+        <option value="$PROJECT_DIR$/im-distributed-com/pom.xml" />
+        <option value="$PROJECT_DIR$/im-distributed-route/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/LoginReq.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/OffLoginReq.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/RegistorReq.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/resp/RegistorResp.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/config/BeanConfig.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/impl/AccountServerImpl.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/routeCache/ServerRouteCache.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/Zktool.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/ServerRouteCache.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/resp/ServerInfoResp.java" />
         <option value="$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/RegistorZkTool.java" />
+        <option value="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/vo/resp/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/P2pChatMsg.java" />
+        <option value="$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/enums/StatusEnum.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/UserLocalCacheService.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/impl/UserLocalCacheImpl.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/AccountSerice.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/controller/RouteController.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/SpringFactory.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/SpringBeanFactory.java" />
+        <option value="$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/ZkListenServerList.java" />
       </list>
     </option>
   </component>
@@ -281,16 +453,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="im-distributed-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="im-distributed-route" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="im-distributed-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="im-distributed-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="im-distributed-route" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -300,7 +467,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1271" />
     <option name="height" value="728" />
@@ -313,8 +480,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -365,40 +533,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imdistributedcom" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdistributedcom" type="462c0819:PsiDirectoryNode" />
-              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -406,31 +564,104 @@
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedroute" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedroute" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedroute" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedroute" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedroute" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imdistributedroute" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-route" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
               <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
@@ -452,75 +683,10 @@
               <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdistributedserver" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-              <item name="response" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="im-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="im-distributed-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="im-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,20 +823,24 @@
       <workItem from="1551006885637" duration="186000" />
       <workItem from="1551007079187" duration="7836000" />
       <workItem from="1551167270820" duration="7494000" />
-      <workItem from="1551257800897" duration="5999000" />
+      <workItem from="1551257800897" duration="7865000" />
+      <workItem from="1551362922219" duration="41000" />
+      <workItem from="1551402378103" duration="3022000" />
+      <workItem from="1551510110401" duration="23633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21774000" />
+    <option name="totallyTimeSpent" value="50336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32995495" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.28473282" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.28433478" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info id="Capture Tool" order="8" />
@@ -681,28 +851,65 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.074652776" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.38063064" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.375" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.375" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2837838" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32832617" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="JRebel" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.38063064" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info id="JRebel" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.375" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2837838" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32977098" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.28433478" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.38063064" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.074652776" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -715,187 +922,45 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/controller/ChatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/service/impl/ChatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiniuUploadType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/QiNiuApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/plugin/FileConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar!/org/apache/commons/fileupload/FileItemFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MobileFrontEnd/weChat/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/utils/ImageUploadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="49" column="63" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/websocket/WebSocketChildChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/interceptor/UserAuthInteceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/controller/ChatroomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Webwechat/web/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/NettyBoots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/SpringBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/cache/ServerCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/thread/RegistryZK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/AppConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/util/ZKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-zk/src/main/java/com/ycw/im/imdistributedzk/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/pojo/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/A.java" />
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/request/SendMsgReqVo.java">
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/Initial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/ChatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-singel/src/main/java/com/ycw/im/imsingel/Mobilewechat/netty/strategy/StrategyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SessionChannelHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
+        <state relative-caret-position="864">
           <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -903,90 +968,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle.java" />
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.3.3/zookeeper-3.3.3.jar!/org/apache/zookeeper/CreateMode.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="243">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/response/SendMsgResVo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/sgroschupf/zkclient/0.1/zkclient-0.1.jar!/org/I0Itec/zkclient/ZkClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="474">
+          <caret line="210" column="52" selection-start-line="210" selection-start-column="52" selection-end-line="210" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2754">
-            <caret line="102" column="66" selection-start-line="102" selection-start-column="66" selection-end-line="102" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/protocol/RequestProtocol.java">
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/protocol/chat.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="61" lean-forward="true" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/protocol/ResponseProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/constant/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/util/NettyAttrUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="639">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/util/SpringFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/handle/ChatHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="48" column="101" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="101" />
+        <state relative-caret-position="357">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/vo/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/response/SendMsgResVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/vo/req/BaseRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.3.RELEASE/spring-boot-dependencies-2.0.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="506" column="12" selection-start-line="506" selection-start-column="12" selection-end-line="506" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-com/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/vo/request/SendMsgReqVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/RegisterReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.3.RELEASE/spring-boot-autoconfigure-1.4.3.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/LoginReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/resp/RegistorResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/ImDistributedRouteApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/cache/LoadingCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1341">
+          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -995,109 +1195,180 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/init/ServerNettyInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/BeanConfig.java">
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/Zktool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="342">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/config/AppConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#257#1" expanded="true" />
-            <element signature="e#298#314#1" expanded="true" />
-            <element signature="e#355#373#1" expanded="true" />
-            <element signature="e#417#437#1" expanded="true" />
-            <element signature="e#482#514#1" expanded="true" />
-            <element signature="e#563#586#1" expanded="true" />
-            <element signature="e#633#660#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/ImDistributedComApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/test/java/com/ycw/im/imdistributedcom/ImDistributedComApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/ZKTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#710#730#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/ImDistributedServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="648">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/im-distributed-server/src/main/java/com/ycw/im/imdistributedserver/tool/RegistorZkTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="276">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/resp/ServerInfoResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/vo/resp/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/P2pChatMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/config/BeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-com/src/main/java/com/ycw/im/imdistributedcom/enums/StatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/vo/req/OffLoginReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/impl/UserLocalCacheImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/UserLocalCacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/service/AccountSerice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/controller/RouteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2012#2013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/SpringBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/ZkListenServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-distributed-route/src/main/java/com/ycw/im/imdistributedroute/tool/ServerRouteCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1156,7 +1427,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>im-distributed-client</last-edited>
+          <last-edited>im-root</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

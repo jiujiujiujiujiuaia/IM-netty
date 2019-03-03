@@ -16,21 +16,23 @@ public class Server {
     private EventLoopGroup subGroup;
     private ServerBootstrap server;
     private ChannelFuture future;
-    private Server(){
+
+    private Server() {
         mainGroup = new NioEventLoopGroup();
         subGroup = new NioEventLoopGroup();
         server = new ServerBootstrap();
-        server.group(mainGroup,subGroup)
+        server.group(mainGroup, subGroup)
                 .channel(NioServerSocketChannel.class)
                 .childHandler(new Initial());
     }
 
-    public static Server getInstance(){
+    public static Server getInstance() {
         return INSTANCE;
     }
-    public void start(int port){
+
+    public void start(int port) {
         future = server.bind(port);
-        System.err.println("netty server 启动，端口号为"+port);
+        System.err.println("netty server 启动，端口号为" + port);
     }
 
 }   

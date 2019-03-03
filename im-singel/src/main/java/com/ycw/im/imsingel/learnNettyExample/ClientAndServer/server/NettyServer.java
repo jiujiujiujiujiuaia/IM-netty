@@ -18,19 +18,19 @@ import java.util.Date;
 
 public class NettyServer {
 
-    public static void init(){
+    public static void init() {
         NioEventLoopGroup group = new NioEventLoopGroup();
         NioEventLoopGroup boss = new NioEventLoopGroup();
         ServerBootstrap bootstrap = new ServerBootstrap();
         bootstrap
-                .group(group,boss)
+                .group(group, boss)
                 .channel(NioServerSocketChannel.class)
                 .option(ChannelOption.SO_BACKLOG, 1024)
                 .childOption(ChannelOption.SO_KEEPALIVE, true)
                 .childOption(ChannelOption.TCP_NODELAY, true)
                 .childHandler(new ChannelInitializer<NioSocketChannel>() {
                     @Override
-                    public void initChannel(NioSocketChannel channel){
+                    public void initChannel(NioSocketChannel channel) {
                         channel.pipeline().addLast(new PacketDecoder());
                         channel.pipeline().addLast(new LoginRuqestHandler());
                         //添加一个权限校验，避免恶意通过客户端伪造MessageRequest绕过登陆
@@ -41,8 +41,9 @@ public class NettyServer {
                         channel.pipeline().addLast(new PacketEncoder());
                     }
                 });
-        bind(bootstrap,6666);
+        bind(bootstrap, 6666);
     }
+
     private static void bind(final ServerBootstrap serverBootstrap, final int port) {
         serverBootstrap.bind(port).addListener(future -> {
             if (future.isSuccess()) {
@@ -52,7 +53,8 @@ public class NettyServer {
             }
         });
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         init();
     }
 }

@@ -14,11 +14,11 @@ import java.nio.file.Paths;
 import java.util.UUID;
 
 @Service
-public class FileUploadServiceImpl implements FileUploadService{
+public class FileUploadServiceImpl implements FileUploadService {
 
     private final static String SERVER_URL_PREFIX = "http://localhost:8080/WebSocket/";
     private final static String FILE_STORE_PATH = "UploadFile";
-    
+
     @Override
     public ResponseJson upload(MultipartFile file, HttpServletRequest request) {
         // 重命名文件，防止重名

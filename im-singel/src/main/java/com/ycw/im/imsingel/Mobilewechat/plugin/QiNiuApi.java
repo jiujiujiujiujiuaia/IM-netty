@@ -17,26 +17,27 @@ public class QiNiuApi {
     private String key;
     private Auth auth;
     private UploadManager uploadManager;
-    private static final String AK ="Miz3fGhzz7mzW4cVapwS4KtZLxY0olmNqdXUd_La";
-    private static final String SK="C-12V0QS0IAE9aloOClMd9H97XXOBkhdr7RqvSUK";
-    private static final String bucket="netty-chat3";
+    private static final String AK = "Miz3fGhzz7mzW4cVapwS4KtZLxY0olmNqdXUd_La";
+    private static final String SK = "C-12V0QS0IAE9aloOClMd9H97XXOBkhdr7RqvSUK";
+    private static final String bucket = "netty-chat3";
 
-    private QiNiuApi(){
-        auth = Auth.create(AK,SK);
+    private QiNiuApi() {
+        auth = Auth.create(AK, SK);
         uploadManager = new UploadManager();
     }
-    public static QiNiuApi getInstance(){
-        synchronized (LOCK){
+
+    public static QiNiuApi getInstance() {
+        synchronized (LOCK) {
             return new QiNiuApi();
         }
     }
 
     public QiNiuApi withFileName(String key, QiniuUploadType type) {
-        return withFileName(key,type.getPath());
+        return withFileName(key, type.getPath());
     }
 
     private QiNiuApi withFileName(String key, String path) {
-        this.key =path + key;
+        this.key = path + key;
         System.out.println(this.key);
         return this;
     }
@@ -44,6 +45,7 @@ public class QiNiuApi {
     private String getUpToken() {
         return this.auth.uploadToken(bucket, this.key, 3600L, new StringMap().put("insertOnly", Integer.valueOf(1)));
     }
+
     public String upload(byte[] byteArr) throws IOException {
         Response res = this.uploadManager.put(byteArr, this.key, getUpToken());
         return upload(res);
@@ -53,6 +55,7 @@ public class QiNiuApi {
         Response res = this.uploadManager.put(fileByte, this.key, getUpToken());
         return upload(res);
     }
+
     private String upload(Response res) throws IOException {
         try {
             int status = res.statusCode;

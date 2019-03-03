@@ -25,10 +25,10 @@ public class AppConfiguration {
     private int imServerPort;
 
     @Value("${im.clear.route.request.url}")
-    private String clearRouteUrl ;
+    private String clearRouteUrl;
 
     @Value("${im.heartbeat.time}")
-    private long heartBeatTime ;
+    private long heartBeatTime;
 
     @Value("${app.zk.connect.timeout}")
     private int zkConnectTimeout;

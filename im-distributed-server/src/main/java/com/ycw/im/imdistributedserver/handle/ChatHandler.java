@@ -37,18 +37,18 @@ public class ChatHandler extends SimpleChannelInboundHandler<RequestProtocol.Req
         LOGGER.info("服务端收到消息" + msg.getReqMsg());
 
         //登陆请求
-        if(msg.getType() == Constants.CommandType.LOGIN){
-            SessionChannelHolder.saveSession(msg.getRequestId(),msg.getReqMsg());
-            SessionChannelHolder.putChannel(msg.getRequestId(),(NioSocketChannel)ctx.channel());
-            LOGGER.info("客户端[{}]上线",msg.getReqMsg());
+        if (msg.getType() == Constants.CommandType.LOGIN) {
+            SessionChannelHolder.saveSession(msg.getRequestId(), msg.getReqMsg());
+            SessionChannelHolder.putChannel(msg.getRequestId(), (NioSocketChannel) ctx.channel());
+            LOGGER.info("客户端[{}]上线", msg.getReqMsg());
         }
 
         //心跳检测请求
-        if(msg.getType() == Constants.CommandType.PING){
-            NettyAttrUtil.updateReaderTime(ctx.channel(),System.currentTimeMillis());
-            RequestProtocol.ReqProtocol heartbeat = SpringFactory.getBean("heartbeat",RequestProtocol.ReqProtocol.class);
+        if (msg.getType() == Constants.CommandType.PING) {
+            NettyAttrUtil.updateReaderTime(ctx.channel(), System.currentTimeMillis());
+            RequestProtocol.ReqProtocol heartbeat = SpringFactory.getBean("heartbeat", RequestProtocol.ReqProtocol.class);
             ctx.writeAndFlush(heartbeat).addListener((ChannelFutureListener) future -> {
-                if(!future.isSuccess()){
+                if (!future.isSuccess()) {
                     LOGGER.error("心跳检测回包错误");
                     future.channel().close();
                 }

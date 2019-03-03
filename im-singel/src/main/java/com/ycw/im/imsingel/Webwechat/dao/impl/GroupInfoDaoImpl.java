@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class GroupInfoDaoImpl implements GroupInfoDao{
+public class GroupInfoDaoImpl implements GroupInfoDao {
 
     @Override
     public void loadGroupInfo() {

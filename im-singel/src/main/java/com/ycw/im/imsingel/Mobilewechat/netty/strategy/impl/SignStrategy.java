@@ -20,9 +20,9 @@ public class SignStrategy implements Strategy {
         String unSignedMsgIdStr = dataContent.getExtand();
         List<String> unSignedMsgIds = Arrays.asList(unSignedMsgIdStr.split(","));
         //应该检测一下是否是数字的
-        if(unSignedMsgIds.size() > 0) {
-            ChatService chatService = (ChatService)SpringUtil.getBean("chatServiceImpl");
+        if (unSignedMsgIds.size() > 0) {
+            ChatService chatService = (ChatService) SpringUtil.getBean("chatServiceImpl");
             chatService.updateMsgToSign(unSignedMsgIds);
         }
-        }
+    }
 }

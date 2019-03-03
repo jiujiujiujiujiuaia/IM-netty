@@ -11,22 +11,20 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  */
 public class WsServer {
 
-    private static void init(){
+    private static void init() {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workGroup = new NioEventLoopGroup();
-        try{
+        try {
             ServerBootstrap bootstrap = new ServerBootstrap();
             bootstrap
-                    .group(bossGroup,workGroup)
-                        .channel(NioServerSocketChannel.class)
+                    .group(bossGroup, workGroup)
+                    .channel(NioServerSocketChannel.class)
                     .childHandler(new Init());
             ChannelFuture future = bootstrap.bind(8088).sync();
             future.channel().closeFuture().sync();
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }
-       finally {
+        } finally {
             bossGroup.shutdownGracefully();
             workGroup.shutdownGracefully();
         }

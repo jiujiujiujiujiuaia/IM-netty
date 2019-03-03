@@ -19,7 +19,7 @@ public class FileUploadController {
 
     @Autowired
     private FileUploadService fileUploadService;
-    
+
     @RequestMapping(value = "/upload", method = POST)
     @ResponseBody
     public ResponseJson upload(

@@ -15,18 +15,19 @@ import io.netty.util.concurrent.GlobalEventExecutor;
  */
 public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
     private static ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
+
     @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, TextWebSocketFrame msg) throws Exception {
         String content = msg.text();
-        System.out.println("收到的消息"+content);
+        System.out.println("收到的消息" + content);
         DataContent dataContent = JsonUtils.jsonToPojo(content, DataContent.class);
-        Context.handle(dataContent,channelHandlerContext.channel());
+        Context.handle(dataContent, channelHandlerContext.channel());
 
     }
 
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
-            channels.add(ctx.channel());
+        channels.add(ctx.channel());
     }
 
     @Override

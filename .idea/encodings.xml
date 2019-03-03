@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-distributed-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-distributed-com" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/im-distributed-route" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-distributed-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-distributed-zk" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-singel" charset="UTF-8" />

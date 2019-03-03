@@ -12,27 +12,27 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginRuqestHandler extends SimpleChannelInboundHandler<LoginRequest> {
-    static HashMap<String,Channel> chatList = new HashMap<>();
+    static HashMap<String, Channel> chatList = new HashMap<>();
 
     static {
-        chatList.put("lsc",null);
-        chatList.put("ycw",null);
-        chatList.put("lhy",null);
-        chatList.put("yq",null);
+        chatList.put("lsc", null);
+        chatList.put("ycw", null);
+        chatList.put("lhy", null);
+        chatList.put("yq", null);
     }
+
     @Override
-    public void channelRead0(ChannelHandlerContext ctx,LoginRequest loginRequest){
+    public void channelRead0(ChannelHandlerContext ctx, LoginRequest loginRequest) {
         String username = loginRequest.getUsername();
-        System.out.println(username+"请求登陆");
+        System.out.println(username + "请求登陆");
         LoginResponse response = new LoginResponse();
-        if(chatList.get(username)==null){
+        if (chatList.get(username) == null) {
             LoginUtil.set(ctx.channel());
-            chatList.put(username,ctx.channel());
-            response.setMessage("恭喜您登陆成功,消息格式为对方用户名+空格+消息内容\n" + notice(username,"上线了"));
+            chatList.put(username, ctx.channel());
+            response.setMessage("恭喜您登陆成功,消息格式为对方用户名+空格+消息内容\n" + notice(username, "上线了"));
             response.setSuccess(true);
             response.setUserName(username);
-        }
-        else{
+        } else {
             response.setSuccess(false);
             response.setMessage("登陆失败，该用户已经被登陆");
         }
@@ -41,39 +41,38 @@ public class LoginRuqestHandler extends SimpleChannelInboundHandler<LoginRequest
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        String username = "" ;
-        for(Map.Entry<String,Channel> map : chatList.entrySet()){
-            if(map.getValue() == ctx.channel()){
+        String username = "";
+        for (Map.Entry<String, Channel> map : chatList.entrySet()) {
+            if (map.getValue() == ctx.channel()) {
                 username = map.getKey();
                 break;
             }
         }
-        chatList.put(username,null);
-        notice(username,"下线了");
+        chatList.put(username, null);
+        notice(username, "下线了");
     }
 
-    private String notice(String username,String status){
+    private String notice(String username, String status) {
         MessageResponse response = new MessageResponse();
-        String str = "线上人数为%d人 %s" ;
-        int count  =0;
-        for(Map.Entry<String,Channel> map : chatList.entrySet()){
-            if(map.getValue() != null && !map.getKey().equals(username)){
+        String str = "线上人数为%d人 %s";
+        int count = 0;
+        for (Map.Entry<String, Channel> map : chatList.entrySet()) {
+            if (map.getValue() != null && !map.getKey().equals(username)) {
                 count++;
-                str +=  map.getKey() + ",";
+                str += map.getKey() + ",";
                 response.setMessage(username + status);
                 response.setUp(true);
                 response.setFromUserName("系统");
                 map.getValue().writeAndFlush(response);
             }
         }
-        if(count > 0){
-            str = String.format(str,count,"线上用户列表为[");
-            char[] chars  = str.toCharArray();
-            chars[chars.length -1] = ' ';
+        if (count > 0) {
+            str = String.format(str, count, "线上用户列表为[");
+            char[] chars = str.toCharArray();
+            chars[chars.length - 1] = ' ';
             str = new String(chars);
-            str +="]";
-        }
-        else str = String.format(str,count,"");
+            str += "]";
+        } else str = String.format(str, count, "");
 
         return str;
 

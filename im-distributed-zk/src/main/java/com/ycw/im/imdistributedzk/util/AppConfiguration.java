@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
  * Function:
  *
  * @author ycw
- *
  * @since JDK 1.8
  */
 @Component

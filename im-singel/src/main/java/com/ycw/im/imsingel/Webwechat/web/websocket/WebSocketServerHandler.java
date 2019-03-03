@@ -20,21 +20,22 @@ import com.ycw.im.imsingel.Webwechat.util.Constant;
 public class WebSocketServerHandler extends SimpleChannelInboundHandler<WebSocketFrame> {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(WebSocketServerHandler.class);
-    
+
     @Autowired
     private ChatService chatService;
 
     /**
      * 描述：读取完连接的消息后，对消息进行处理。
-     *      这里主要是处理WebSocket请求
+     * 这里主要是处理WebSocket请求
      */
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, WebSocketFrame msg) throws Exception {
         handlerWebSocketFrame(ctx, msg);
     }
-    
+
     /**
      * 描述：处理WebSocketFrame
+     *
      * @param ctx
      * @param frame
      * @throws Exception
@@ -62,7 +63,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<WebSocke
         }
 
         // 客服端发送过来的消息
-        String request = ((TextWebSocketFrame)frame).text();
+        String request = ((TextWebSocketFrame) frame).text();
         LOGGER.info("服务端收到新信息：" + request);
         JSONObject param = null;
         try {
@@ -98,7 +99,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<WebSocke
                 break;
         }
     }
-    
+
     /**
      * 描述：客户端断开连接
      */
@@ -106,7 +107,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<WebSocke
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         chatService.remove(ctx);
     }
-   
+
     /**
      * 异常处理：关闭channel
      */
@@ -115,8 +116,8 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<WebSocke
         cause.printStackTrace();
         ctx.close();
     }
-    
-    
+
+
     private void sendErrorMessage(ChannelHandlerContext ctx, String errorMsg) {
         String responseJson = new ResponseJson()
                 .error(errorMsg)

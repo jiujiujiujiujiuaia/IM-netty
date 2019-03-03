@@ -25,7 +25,7 @@ public class ChatServiceImpl implements ChatService {
 
     @Override
     public int insertMsg(ChatMsg msg) {
-       return msgMapper.insertMsg(msg);
+        return msgMapper.insertMsg(msg);
     }
 
     @Override

@@ -7,8 +7,8 @@ import lombok.Data;
  */
 @Data
 public class UserInfo {
-    private Long userId ;
-    private String userName ;
+    private Long userId;
+    private String userName;
 
     public UserInfo(Long userId, String userName) {
         this.userId = userId;

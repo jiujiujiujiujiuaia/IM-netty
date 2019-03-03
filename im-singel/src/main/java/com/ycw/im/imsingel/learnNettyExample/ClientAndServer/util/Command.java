@@ -8,10 +8,12 @@ public enum Command {
     MessageResponse(0x004);
 
     private int code;
-    private Command(int code){
+
+    private Command(int code) {
         this.code = code;
     }
-    public int getCode(){
+
+    public int getCode() {
         return code;
     }
 }

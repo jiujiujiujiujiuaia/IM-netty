@@ -12,7 +12,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Autowired
     private UserInfoDao userInfoDao;
-    
+
     @Override
     public ResponseJson getByUserId(String userId) {
         UserInfo userInfo = userInfoDao.getByUserId(userId);
