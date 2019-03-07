@@ -2,6 +2,7 @@ package com.ycw.im.imdistributedserver.server;
 
 import com.ycw.im.imdistributedcom.constant.Constants;
 import com.ycw.im.imdistributedcom.protocol.RequestProtocol;
+import com.ycw.im.imdistributedcom.vo.resp.BaseResponse;
 import com.ycw.im.imdistributedserver.init.ServerNettyInit;
 import com.ycw.im.imdistributedserver.util.SessionChannelHolder;
 import com.ycw.im.imdistributedserver.vo.request.SendMsgReqVo;
@@ -21,6 +22,9 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.net.InetSocketAddress;
+
+import static com.ycw.im.imdistributedcom.enums.StatusEnum.OFF_LINE;
+import static com.ycw.im.imdistributedcom.enums.StatusEnum.SEND_SUCCESS;
 
 /**
  * @Author yuchunwei
@@ -59,11 +63,16 @@ public class Server {
     }
 
     //转发消息方法
-    public void sendMsg(SendMsgReqVo reqVo) {
+    public BaseResponse sendMsg(SendMsgReqVo reqVo) {
+        BaseResponse response = new BaseResponse();
         NioSocketChannel channel = SessionChannelHolder.getChannel(reqVo.getUserId());
         if (channel == null) {
-            throw new NullPointerException("用户[" + reqVo.getUserId() + "]没有上线");
+            response.setStatus(OFF_LINE.getCode());
+            response.setMessage(OFF_LINE.getDescription());
+            LOGGER.info("用户[" + reqVo.getUserId() + "]没有上线");
+            return response;
         }
+        LOGGER.info("用户[{}]收到[{}]",reqVo.getUserId(),reqVo.getMsg());
         RequestProtocol.ReqProtocol protocol = RequestProtocol.ReqProtocol.newBuilder()
                 .setReqMsg(reqVo.getMsg())
                 .setType(Constants.CommandType.MSG)
@@ -73,6 +82,9 @@ public class Server {
         future.addListener((ChannelFutureListener) channelFuture ->
                 LOGGER.info("服务端转发Goolgel protocol 成功 ：{}", reqVo.toString())
         );
+        response.setStatus(SEND_SUCCESS.getCode());
+        response.setMessage(SEND_SUCCESS.getDescription());
+        return response;
     }
 
 }   

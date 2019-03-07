@@ -40,7 +40,7 @@ public class NettyClient {
                         sc.pipeline().addLast(new PacketEncoder());
                     }
                 });
-        connect(bootstrap, "127.0.0.1", 6666, 10);
+        connect(bootstrap, "127.0.0.1", 8888, 10);
     }
 
     private static void connect(Bootstrap bootstrap, String host, int port, int retry) {

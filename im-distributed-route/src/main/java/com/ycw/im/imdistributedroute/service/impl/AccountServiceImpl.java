@@ -63,6 +63,7 @@ public class AccountServiceImpl implements AccountSerice {
 
         if(isRegistor && isUserNameRepeat){
             //方便查询，冗余两份
+            LOGGER.info("用户[{}]注册成功",userName);
             redisTemplate.opsForValue().set(key,userName);
             redisTemplate.opsForValue().set(userName,key);
         }
@@ -94,6 +95,7 @@ public class AccountServiceImpl implements AccountSerice {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("msg", msg.getUserName() + ":【" + msg.getMsg() + "】");
         jsonObject.put("userId", msg.getReceiveUserId());
+
         RequestBody requestBody = RequestBody.create(mediaType,jsonObject.toString());
         Request request = new Request.Builder()
                 .url(url)
@@ -131,12 +133,13 @@ public class AccountServiceImpl implements AccountSerice {
 
         //登陆验证通过，挑选服务器路由并返回
 
-        //将登陆成功用户加入在线用户表
+        //将登陆成功用户加入在线用户表(先查询是否有可用服务器，如果没有会报错的)
+        String ip = LocalrouteCache.select();
         UserInfo userInfo = new UserInfo(loginReq.getUserId(),loginReq.getUserName());
         LocalLoginUserCache.cacheLogin(userInfo);
 
         //挑选服务器路由，将用户和服务器路由绑定在一起
-        String ip = LocalrouteCache.select();
+        LOGGER.info("用户[{}]绑定ip[{}]",userName,ip);
         redisTemplate.opsForValue().append(ROUTE_PREFIX+userId,ip);
         String[] ipAndPort = ip.split(":") ;
         ServerInfoResp serverInfoResp = new ServerInfoResp(ipAndPort[0],Integer.parseInt(ipAndPort[1]),

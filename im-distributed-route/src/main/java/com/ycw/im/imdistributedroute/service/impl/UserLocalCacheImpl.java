@@ -25,9 +25,9 @@ public class UserLocalCacheImpl implements UserLocalCacheService {
     @Override
     public boolean isAlreadLogin(Long userId) {
         if(USER_INFO_MAP.containsKey(userId)){
-            return false ;
+            return true ;
         }
-        else return true;
+        else return false;
     }
 
     @Override

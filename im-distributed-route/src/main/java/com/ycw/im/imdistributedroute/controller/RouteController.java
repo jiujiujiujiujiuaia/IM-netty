@@ -37,14 +37,14 @@ public class RouteController {
     @ApiOperation("注册 API")
     @RequestMapping(value = "register", method = RequestMethod.POST)
     @ResponseBody()
-    public BaseResponse registor(RegisterReq registerReq){
+    public BaseResponse registor(@RequestBody RegisterReq registerReq){
         return accountSerice.registor(registerReq);
     }
 
     @ApiOperation("登陆 API")
     @RequestMapping(value = "login", method = RequestMethod.POST)
     @ResponseBody()
-    public BaseResponse login(LoginReq loginReq){
+    public BaseResponse login(@RequestBody LoginReq loginReq){
         return accountSerice.login(loginReq);
     }
 
@@ -52,7 +52,7 @@ public class RouteController {
     @ApiOperation("下线 API")
     @RequestMapping(value = "off", method = RequestMethod.POST)
     @ResponseBody()
-    public BaseResponse offLogin(OffLoginReq offLoginReq){
+    public BaseResponse offLogin(@RequestBody OffLoginReq offLoginReq){
         return accountSerice.offLogin(offLoginReq);
     }
 

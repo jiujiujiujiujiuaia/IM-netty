@@ -9,11 +9,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @Author yuchunwei
  */
 @Configuration
-public class WebConfig implements WebMvcConfigurer {
-
+public abstract class WebConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/public/**").addResourceLocations("classpath:/public/");
         registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
     }
-
-}   
+}

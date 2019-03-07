@@ -10,8 +10,8 @@ public enum StatusEnum {
     FAIL(-1, "失败"),
 
     //消息相关
-    SEND_SUCCESS(300,"发送消息成功"),
-    SEND_FAIL(301,"发送消息失败"),
+    SEND_SUCCESS(201,"发送消息成功"),
+    SEND_FAIL(202,"发送消息失败"),
 
 
     //登陆相关400起始
