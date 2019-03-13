@@ -1,6 +1,7 @@
 package com.ycw.im.imdistributedroute.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
+import com.ycw.im.imdistributedcom.algorithm.route.handle.ConsistentHashHandle;
 import com.ycw.im.imdistributedcom.pojo.UserInfo;
 import com.ycw.im.imdistributedcom.vo.resp.BaseResponse;
 import com.ycw.im.imdistributedroute.service.AccountSerice;
@@ -95,6 +96,7 @@ public class AccountServiceImpl implements AccountSerice {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("msg", msg.getUserName() + ":【" + msg.getMsg() + "】");
         jsonObject.put("userId", msg.getReceiveUserId());
+        jsonObject.put("sendId",msg.getSendUserId());
 
         RequestBody requestBody = RequestBody.create(mediaType,jsonObject.toString());
         Request request = new Request.Builder()
@@ -134,19 +136,23 @@ public class AccountServiceImpl implements AccountSerice {
         //登陆验证通过，挑选服务器路由并返回
 
         //将登陆成功用户加入在线用户表(先查询是否有可用服务器，如果没有会报错的)
-        String ip = LocalrouteCache.select();
+
+        //一致性hash算法获取ip
+        ConsistentHashHandle hashHandle = new ConsistentHashHandle();
+        String ip = hashHandle.getRoute(LocalrouteCache.getAll(),String.valueOf(loginReq.getUserId()));
         UserInfo userInfo = new UserInfo(loginReq.getUserId(),loginReq.getUserName());
         LocalLoginUserCache.cacheLogin(userInfo);
 
         //挑选服务器路由，将用户和服务器路由绑定在一起
         LOGGER.info("用户[{}]绑定ip[{}]",userName,ip);
-        redisTemplate.opsForValue().append(ROUTE_PREFIX+userId,ip);
+        redisTemplate.opsForValue().set(ROUTE_PREFIX+userId,ip);
         String[] ipAndPort = ip.split(":") ;
         ServerInfoResp serverInfoResp = new ServerInfoResp(ipAndPort[0],Integer.parseInt(ipAndPort[1]),
                 Integer.parseInt(ipAndPort[2]));
         return BaseResponse.ok(serverInfoResp,LOGIN_SUCCESS.getDescription(),LOGIN_SUCCESS.getCode());
     }
 
+    //下线
     @Override
     public BaseResponse offLogin(OffLoginReq req) {
         UserInfo userInfo = LocalLoginUserCache.getUserInfoById(req.getUserId());

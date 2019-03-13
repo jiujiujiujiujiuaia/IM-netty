@@ -27,4 +27,8 @@ public class ChatController {
     public BaseResponse sendMsg(@RequestBody SendMsgReqVo sendMsgReqVO){
         return server.sendMsg(sendMsgReqVO);
     }
+
+
+
+
 }   

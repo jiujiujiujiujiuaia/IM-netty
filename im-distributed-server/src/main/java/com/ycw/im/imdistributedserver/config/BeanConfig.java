@@ -20,6 +20,7 @@ public class BeanConfig {
     public RequestProtocol.ReqProtocol heartbeat() {
         RequestProtocol.ReqProtocol heart = RequestProtocol.ReqProtocol.newBuilder()
                 .setRequestId(0L)
+                .setSendId(0L)
                 .setReqMsg("服务端pong")
                 .setType(Constants.CommandType.PING)
                 .build();

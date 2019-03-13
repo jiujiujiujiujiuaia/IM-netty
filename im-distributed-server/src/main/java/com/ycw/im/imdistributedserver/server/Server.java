@@ -4,7 +4,9 @@ import com.ycw.im.imdistributedcom.constant.Constants;
 import com.ycw.im.imdistributedcom.protocol.RequestProtocol;
 import com.ycw.im.imdistributedcom.vo.resp.BaseResponse;
 import com.ycw.im.imdistributedserver.init.ServerNettyInit;
+import com.ycw.im.imdistributedserver.service.ChatService;
 import com.ycw.im.imdistributedserver.util.SessionChannelHolder;
+import com.ycw.im.imdistributedserver.util.SpringFactory;
 import com.ycw.im.imdistributedserver.vo.request.SendMsgReqVo;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -77,8 +79,17 @@ public class Server {
                 .setReqMsg(reqVo.getMsg())
                 .setType(Constants.CommandType.MSG)
                 .setRequestId(reqVo.getUserId())
+                .setSendId(reqVo.getSendId())
                 .build();
+
+       // ChannelFuture future = channel.writeAndFlush(protocol);
+        //存入持久层
+        ChatService chatService  = (ChatService)SpringFactory.getBean(ChatService.class);
+        chatService.insertMsg(protocol);
+
         ChannelFuture future = channel.writeAndFlush(protocol);
+
+
         future.addListener((ChannelFutureListener) channelFuture ->
                 LOGGER.info("服务端转发Goolgel protocol 成功 ：{}", reqVo.toString())
         );

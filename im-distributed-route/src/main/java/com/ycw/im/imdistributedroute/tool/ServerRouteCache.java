@@ -36,7 +36,7 @@ public class ServerRouteCache {
     }
 
     //如果cache中没有任何服务器，则添加节点至cache中
-    private List<String> getAll(){
+    public List<String> getAll(){
         List<String> list = new ArrayList<>(3);
         List<String> nodes = zktool.getAllNode();
         if(cache.size() == 0){

@@ -48,13 +48,21 @@ public class RouteController {
         return accountSerice.login(loginReq);
     }
 
-
     @ApiOperation("下线 API")
     @RequestMapping(value = "off", method = RequestMethod.POST)
     @ResponseBody()
     public BaseResponse offLogin(@RequestBody OffLoginReq offLoginReq){
         return accountSerice.offLogin(offLoginReq);
     }
+
+
+    //TODO
+//    @ApiOperation("查询历史记录 API")
+//    @RequestMapping(value = "chat_history", method = RequestMethod.GET)
+//    @ResponseBody()
+//    public BaseResponse queryChatHistory(@RequestBody OffLoginReq offLoginReq){
+//        return null;
+//    }
 
 
 

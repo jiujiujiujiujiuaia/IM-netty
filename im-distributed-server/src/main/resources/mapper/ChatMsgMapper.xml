@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ycw.im.imdistributedserver.dao.ChatDao">
+    <resultMap id="BaseResultMap" type="com.ycw.im.imdistributedcom.pojo.ChatMsg">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="send_user_id" property="sendUserId" jdbcType="VARCHAR"/>
+        <result column="accept_user_id" property="acceptUserId" jdbcType="VARCHAR"/>
+        <result column="msg" property="msg" jdbcType="VARCHAR"/>
+        <result column="sign_flag" property="sigcreateTimenFlag" jdbcType="INTEGER"/>
+        <result column="create_time" property="" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <insert id="insertMsg" parameterType="com.ycw.im.imdistributedcom.pojo.ChatMsg" useGeneratedKeys="true"
+            keyProperty="userId">
+        INSERT INTO chat_msg(send_user_id,accept_user_id,msg,sign_flag,create_time)
+        values(#{sendUserId},#{acceptUserId},#{msg},#{signFlag},#{createTime})
+    </insert>
+</mapper>

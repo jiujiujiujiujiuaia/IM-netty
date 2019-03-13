@@ -17,11 +17,15 @@ public class SendMsgReqVo extends BaseRequest {
     @ApiModelProperty(required = true, value = "userId", example = "11")
     private Long userId;
 
+    @ApiModelProperty(required = true, value = "sendId", example = "11")
+    private Long sendId;
+
     @Override
     public String toString() {
         return "SendMsgReqVO{" +
                 "msg='" + msg + '\'' +
-                ", userId=" + userId +
+                ", userId=" + userId + '\'' +
+                ", sendId=" + sendId +
                 "} " + super.toString();
     }
 }   

@@ -27,7 +27,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.ycw.im.im.distributed,server.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.ycw.im.imdistributedserver.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

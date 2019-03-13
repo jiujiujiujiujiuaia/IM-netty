@@ -2,6 +2,7 @@ package com.ycw.im.imdistributedserver;
 
 import com.ycw.im.imdistributedserver.config.AppConfiguration;
 import com.ycw.im.imdistributedserver.tool.RegistorZkTool;
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.net.InetAddress;
 
 @SpringBootApplication
+@MapperScan(basePackages = "com.ycw.im.imdistributedserver.dao")
 public class ImDistributedServerApplication implements CommandLineRunner {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(ImDistributedServerApplication.class);

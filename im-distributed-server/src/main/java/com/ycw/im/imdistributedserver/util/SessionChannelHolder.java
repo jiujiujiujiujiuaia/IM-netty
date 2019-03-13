@@ -14,6 +14,11 @@ public class SessionChannelHolder {
     private final static Map<Long, NioSocketChannel> channelMap = new ConcurrentHashMap<>(16);
     private final static Map<Long, String> SessionMap = new ConcurrentHashMap<>(16);
 
+
+    static {
+        channelMap.put(201903071130L,new NioSocketChannel());
+        SessionMap.put(201903071130L,"ycw");
+    }
     //保存用户及用户名
     public static void saveSession(Long userId, String userName) {
         SessionMap.put(userId, userName);
